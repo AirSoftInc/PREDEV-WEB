@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  .font-color-gray{
+      color: #9c9c9c;
+  }
+
+  .font-color-green{
+      color: #64e500;
+  }
+
+  .pt-5{
+      padding-top: 5px;
+  }
+
+/* This section contains footer styles */
+
+  .page-footer{
+    background-color: #091426 !important
+  }
+
+  .text-footer-item{
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+    text-transform: uppercase
+  }
+
+/* End footer styles    */
