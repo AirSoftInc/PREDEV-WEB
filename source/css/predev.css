@@ -32,4 +32,16 @@ body {
     text-transform: uppercase
   }
 
-/* End footer styles    */
+  .btn-register{
+    margin-top: 5px;
+    background-color: #155FFF;
+    width: 131px;
+    padding-left: 15px;
+    border-radius: 12px;
+  }
+
+  .btn-register:hover{
+    background: #64e500 !important;
+  }
+
+/* End footer styles */
