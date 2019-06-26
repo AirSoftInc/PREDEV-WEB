@@ -58,7 +58,7 @@ template.innerHTML = `
     </footer>
 `
 
-class PlaceholderKitten extends HTMLElement {
+class FooterComponent extends HTMLElement {
     constructor() {
         super()
         this.attachShadow({ mode: 'open' })
@@ -66,4 +66,4 @@ class PlaceholderKitten extends HTMLElement {
     }
 }
 
-window.customElements.define('footer-component', PlaceholderKitten)
+window.customElements.define('footer-component', FooterComponent);
