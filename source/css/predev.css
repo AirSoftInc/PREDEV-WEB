@@ -20,6 +20,30 @@ body {
       padding-top: 5px;
   }
 
+  .align-center{
+    text-align: center !important;
+  }
+
+  .ml-4{
+    margin-left: -4px;
+  }
+
+  .font-color-blue{
+    color: #155FFF !important;
+  }
+
+  .fz-20{
+    font-size: 20px;
+  }
+
+  .fz-15{
+    font-size: 15px;
+  }
+
+  .mt-2{
+    margin-top: 2px;
+  }
+
 /* This section contains footer styles */
 
   .page-footer{
@@ -42,6 +66,19 @@ body {
 
   .btn-register:hover{
     background: #64e500 !important;
+  }
+
+  .social-icon{
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+  }
+
+  .social-icon:hover{
+    background-color: #155FFF;
+    color: #ffff !important;
+    cursor: pointer;
+    border-radius: 5px;
   }
 
 /* End footer styles */
