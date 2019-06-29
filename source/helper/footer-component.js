@@ -3,6 +3,7 @@ template.innerHTML = `
     <link rel="stylesheet" href="../source/css/materialize.min.css">
     <link rel="stylesheet" href="../source/css/predev.css">
     <link rel="stylesheet" href="../source/fonts/fontawesome-5.9.0-web/css/all.min.css">
+    <link rel="stylesheet" href="../source/css/footer.css">
 
     <footer class="page-footer">
         <div class="container">
