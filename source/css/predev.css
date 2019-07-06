@@ -12,6 +12,9 @@ body {
       color: #9c9c9c;
   }
 
+  .bg-green{
+    background: #64e500 !important;
+  }
   .font-color-green{
       color: #64e500;
   }
@@ -19,7 +22,6 @@ body {
   .pt-5{
       padding-top: 5px;
   }
-
   .align-center{
     text-align: center !important;
   }

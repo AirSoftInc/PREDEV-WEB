@@ -1,0 +1,95 @@
+.objetive {
+    width: 426px;
+    height: 326px;
+  }
+
+  .card-title{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    padding-left: 52px;
+  }
+
+  .card-image{
+    position: relative;
+    overflow: hidden;
+    
+  }
+
+  .card-img{
+    width:100%;
+  }
+
+  .card-img:hover{
+    transform: scale(1.2);
+    text-align: center;
+    transition: all 0.6s;
+  }
+
+  .section-title {
+    margin: 0 auto 62px;
+    padding: 0;
+    position: relative;
+    text-align: center;
+  }
+
+  .section-title h4 {
+    color: #c9c9c9;
+    display: inline-block;
+    font-size: 18px;
+    letter-spacing: 4px;
+    margin-bottom: 12px;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 1;
+  }
+
+  .section-title h4:after {
+    background-color: #64e500;
+    content: "";
+    height: 1px;
+    left: -24px;
+    position: absolute;
+    top: 47%;
+    width: 64px;
+    z-index: -1;
+  }
+
+  .section-title h2 {
+    color: #091426;
+    font-family: "Oswald",sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    line-height: 0.9;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+  }
+
+  .section-title h2 span {
+    color: #64e500;
+  }
+
+  .section-title h6 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #989898;
+    margin-bottom: 18px;
+  }
+
+  .section-title p {
+    color: #9c9c9c;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 auto;
+    max-width: 484px;
+  }
+  
+  .card-title-font{
+    background: #091426; 
+    margin-left:18px !important; 
+    margin-right: 12px !important; 
+    padding: 12px 8px !important; 
+  }
