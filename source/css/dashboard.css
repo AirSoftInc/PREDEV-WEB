@@ -1,0 +1,62 @@
+.page-title{
+    line-height: 62px;
+    font-size: 30px;
+    padding-left: 30%;
+}
+
+.das-img{
+    width:80%;
+}
+.side-nav{
+    width: 250px;
+}
+.user-view{
+    padding: 5px 32px !important;
+    margin-bottom: 0px;
+}
+
+.side-nav-title{
+    padding: 1rem 1.6rem .1rem 1.6rem;
+    font-size: .8571rem;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-weight: 600;
+}
+
+.side-nav-item{
+    letter-spacing: .5px;
+}
+
+.side-nav > .side-nav-item>a:hover{
+    background-color:  #212529 !important;
+}
+
+.side-nav > .side-nav-item>a>i:hover{
+    color: black !important;
+}
+
+.collapsible-header>i{
+    font-size: 1rem;
+    padding: 0px 16px;
+}
+.collapsible-header>i:hover{
+    color: black !important;
+}
+
+.collapsible-header:hover{
+    background-color: #212529 !important;
+    color: white !important;
+}
+
+.cb-a{
+    padding-left: 6rem !important;
+}
+
+.bb-10{
+    border-bottom: solid 10px #64e500;
+}
+
+
+
+
+

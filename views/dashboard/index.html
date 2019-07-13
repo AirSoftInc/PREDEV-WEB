@@ -5,31 +5,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximumscale=1.0, user-scalable=no" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Plataforma PREDEV</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="../../source/css/materialize.min.css">
     <link rel="stylesheet" href="../../source/css/predev.css">
     <link rel="stylesheet" href="../../source/fonts/fontawesome-5.9.0-web/css/all.min.css">
+    <link rel="stylesheet" href="../../source/css/dashboard.css">
 </head>
 
 <body>
-    <main>
-        <div class="row">
-
-            <div class="col l3  blue hide-on-med-and-down">
-                    
-                <br>
+    <header>
+        <nav class="top-nav bb-10">
+            <!-- <a href="#!" class="brand-logo"><i class="material-icons">cloud</i>Logo</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#"><i class="fas fa-user-circle"></i></a></li>
+            </ul> -->
+            <div class="nav-wrapper bg-blue">
+                <a class="page-title">Panel administrador</a>
+                <ul class="left show-on-med-and-down">
+                        <li><a href="#"><i class="icon-transform fas fa-bars"></i></a></li>
+                </ul>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#"><i class="fas fa-user-circle"></i></a></li>
+                </ul>
             </div>
+        </nav>
 
-            <div class="col l9 m12 s12 grey">
-                    <a href="#" class=" hide-on-large-only"><i class="fas fa-list"></i></a>
-                <br>
-            </div>
-
+    </header>
+    
+    <div class="section">
+        <div class="col s12 m4 l3">
+            <ul id="nav-mobile" class="side-nav bg-blue hide-on-med-and-down" style="transform: translateX(0%);">
+                <!-- <li class="logo_img">
+                                <div class="center">
+                                    <a href="../index.html"><img class="das-img center" src="../../source/img/PREDEV.png"></a>
+                                </div>
+                            </li> -->
+                <li>
+                    <div class="user-view">
+                        <a href="../index.html"><img class="responsive-img center das-img"
+                                src="../../source/img/PREDEV.png"></a>
+                    </div>
+                </li>
+                <li class="side-nav-title white-text">Menu</li>
+                <li class="side-nav-item active-green"><a class="collapsible-header black-text"><i
+                            class="white-text fas fa-home"></i>Inicio</a></li>
+                <li class="side-nav-item"><a href="#" class="collapsible-header white-text waves-effect "><i
+                            class="white-text fas fa-hands-helping"></i>Instituciones</a></li>
+                <li class="side-nav-item"><a href="#" class="collapsible-header white-text waves-effect"><i
+                            class="white-text fas fa-chart-pie"></i>Estadisticas</a></li>
+                <li class="side-nav-item">
+                    <ul class="collapsible collapsible-accordion">
+                        <li class="active"><a class="collapsible-header white-text waves-effect"><i
+                                    class="white-text fas fa-folder tiny"></i>Casos<i
+                                    class="right white-text fas fa-caret-right"></i></a>
+                            <div class="collapsible-body" style="display: block;">
+                                <ul>
+                                    <li><a href="#" class="cb-a waves-effect waves-send">Generales</a></li>
+                                    <li><a href="#" class="cb-a waves-effect waves-send">Asignaciones</a></li>
+                                    <li><a href="#" class="cb-a waves-effect waves-send">Mis casos</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="side-nav-item"><a href="#" class="collapsible-header white-text waves-effect"><i
+                            class="white-text fas fa-comments"></i>Chat</a></li>
+            </ul>
         </div>
-    </main>
 
-    <script src="../source/js/jquery-3.4.1.min.js"></script>
-    <script src="../source/js/materialize.min.js"></script>
+        <div class="col s12 m8 l9">
+        </div>
+
+    </div>
+
+    <script src="../../source/js/jquery-3.4.1.min.js"></script>
+    <script src="../../source/js/materialize.min.js"></script>
 </body>
 
 </html>
