@@ -36,11 +36,12 @@
  #signIn li a{
    background-color: white;
    color: black;
-   font-size: 13px;
+   font-weight: 500;
  }
  #signIn li a:hover{
-  background-color: #64e500;
-  color: black;
+  background-color: #155FFF;
+  color: white !important;
+  font-weight: bold;
 }
 
 .fa-caret-down{

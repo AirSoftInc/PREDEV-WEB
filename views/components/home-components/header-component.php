@@ -1,12 +1,12 @@
 <head>
-    <link rel="stylesheet" href="../source/css/header.css">
+    <link rel="stylesheet" href="../source/css/home-css/header.css">
 </head>
 
 <header>
         <ul id="signIn" class="dropdown-content">
-            <li><a class="black-text">REGISTRARSE</a></li>
+            <li><a class="black-text fz-13 modal-trigger" data-target="register-modal">REGISTRARSE</a></li>
             <li class="divider"></li>
-            <li><a class="black-text" href="../views/dashboard/index.html">INICIAR SESIÓN</a></li>
+            <li><a class="black-tex fz-13" href="../views/dashboard/index.html">INICIAR SESIÓN</a></li>
         </ul>
 
         <div class="navbar-fixed">
@@ -35,3 +35,10 @@
             </nav>
         </div>
     </header>
+
+    <?php 
+        require_once("components/home-components/register-modal.php")
+    ?>
+
+    <script src="../source/js/jquery-3.4.1.min.js"></script>
+    <script src="../source/js/home-js/header.js"></script>

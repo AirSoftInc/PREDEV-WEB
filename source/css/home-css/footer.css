@@ -18,6 +18,8 @@
 
   .btn-register:hover{
     background: #64e500 !important;
+    color: black;
+    font-weight: bold;
   }
 
   .social-icon{

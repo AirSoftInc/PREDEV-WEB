@@ -11,15 +11,19 @@ body {
   .font-color-gray{
       color: #9c9c9c;
   }
-   .bg-blue{
-     background-color: #091426 !important;
-   }
-   .bg-grey{
-     background-color: #F9F9F9;
-   }
+  
+  .bg-blue{
+    background-color: #091426 !important;
+  }
+
+  .bg-grey{
+    background-color: #F9F9F9;
+  }
+
   .bg-green{
     background: #64e500 !important;
   }
+
   .font-color-green{
       color: #64e500;
   }
@@ -50,9 +54,15 @@ body {
   .mt-2{
     margin-top: 2px;
   }
+
   .active-green{
     background-color: #64e500 !important;
   }
+
   .icon-transform:hover{
     transform: scale(1.2);
+  }
+
+  .fz-13{
+    font-size: 13px !important;
   }

@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="../source/css/footer.css">
+    <link rel="stylesheet" href="../source/css/home-css/footer.css">
 </head>
 
 <footer class="page-footer">
@@ -19,7 +19,7 @@
             </div>
 
             <div class="col m4 s12 align-center">
-                <div><img src="../source/img/AirSoft.png" height="80" width="120"></div>
+                <div><img src="../source/img/AirSoft.png" height="72" width="120"></div>
                 <p class="font-color-gray">
                     Necesitas una solución nosotros la desarrollamos.
                 </p>
