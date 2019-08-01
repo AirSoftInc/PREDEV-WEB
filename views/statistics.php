@@ -18,6 +18,9 @@
     ?>
 
     <main>
+    <?php 
+        require_once("components/home-components/state-map-component.php");
+    ?>
     </main>
 
     <?php 
@@ -26,7 +29,7 @@
 
     <script src="../source/js/jquery-3.4.1.min.js"></script>
     <script src="../source/js/materialize.min.js"></script>
-    <script src="../source/js/home-js/index.js"></script>
+    <script src="../source/js/home-js/statistics.js"></script>
 </body>
 
 </html>

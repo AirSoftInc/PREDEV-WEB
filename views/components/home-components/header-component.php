@@ -15,11 +15,12 @@
                     <a href="../views/index.html" id="logo-container" class="brand-logo "><img class="logo_img"
                             src="../source/img/PREDEV.png"></a>
                     <ul class="right hide-on-med-and-down ">
-                        <li class="active"><a class="active-a" href="#"><i class="fas fa-home tiny"></i> INICIO</a></li>
+                        <li><a href="../views/index.php" id="home" class="a-nav tooltipped" data-position="button" data-tooltip="Inicio"
+                                data-delay="50"><i class="fas fa-home tiny"></i> INICIO</a></li>
                         <li><a class="a-nav tooltipped" data-position="button" data-tooltip="Discriminación en Veracruz"
-                                data-delay="50" href="#"><i class="fas fa-chart-pie tiny"></i> ESTADISTICAS</a></li>
+                                data-delay="50" href="../views/statistics.php" id="statistics"><i class="fas fa-chart-pie tiny"></i> ESTADISTICAS</a></li>
                         <li><a class="a-nav tooltipped" data-position="button"
-                                data-tooltip="Instituciones colaboradoras" data-delay="50" href="#"><i class="fas fa-hands-helping tiny"></i> COLABORACIONES</a>
+                                data-tooltip="Instituciones colaboradoras" data-delay="50" href="#" id="collaborations"><i class="fas fa-hands-helping tiny"></i> COLABORACIONES</a>
                         </li>
                         <li><a class="dropdown-button li-login" href="#!" data-activates="signIn"><i
                                     class="fas fa-user-lock"></i><i class="left fas fa-caret-down"></i></a></li>
