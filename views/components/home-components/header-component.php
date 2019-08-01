@@ -2,7 +2,7 @@
     <link rel="stylesheet" href="../source/css/home-css/header.css">
 </head>
 
-<header>
+    <header>
         <ul id="signIn" class="dropdown-content">
             <li><a class="black-text fz-13 modal-trigger" data-target="register-modal">REGISTRARSE</a></li>
             <li class="divider"></li>
