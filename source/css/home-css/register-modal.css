@@ -9,22 +9,46 @@
 }
 
 .input-field .prefix.active{
-    color: red !important;
+    color: #091426 !important;
 }
 
 input[type=text]:not(.browser-default):focus:not([readonly]){
-    border-bottom: 1px solid red;
-    box-shadow: 0 1px 0 0 red;
+    border-bottom: 1px solid #091426;
+    box-shadow: 0 1px 0 0 #091426;
 }
 
 input[type=text]:not(.browser-default):focus:not([readonly]) + label{
-    color: red;
+    color: #091426;
 }
 
 .dropdown-content li>a, .dropdown-content li>span {
     font-size: 16px;
-    color: red;
+    color: #091426;
     display: block;
     line-height: 22px;
     padding: 14px 16px;
+}
+
+textarea.materialize-textarea:focus:not([readonly]){
+    border-bottom: 1px solid #091426;
+    -webkit-box-shadown: 0 1px 0 0 #091426;
+    box-shadow: 0 1px 0 0 #091426;
+}
+
+textarea.materialize-textarea:focus:not([readonly]) + label{
+    color: #091426;
+}
+
+#divider-bold{
+    color: #024A58;
+    font-weight: bold;
+}
+
+#divider-register{
+    background-color: #2999A5;
+    height: 3px;
+}
+
+.input-field .prefix {
+    color: grey;
 }
