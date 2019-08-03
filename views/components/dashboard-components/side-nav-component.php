@@ -21,7 +21,7 @@
                                 class="right white-text fas fa-caret-right"></i></a>
                         <div class="collapsible-body blue-grey darken-2" style="display: block;">
                             <ul>
-                                <li><a href="#" class="cb-a waves-effect waves-send white-text">Generales</a></li>
+                                <li><a href="../dashboard/general-cases.php" class="cb-a waves-effect waves-send white-text">Generales</a></li>
                                 <li><a href="#" class="cb-a waves-effect waves-send white-text">Asignaciones</a></li>
                                 <li><a href="#" class="cb-a waves-effect waves-send white-text">Mis casos</a></li>
                             </ul>
