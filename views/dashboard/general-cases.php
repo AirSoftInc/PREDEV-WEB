@@ -27,7 +27,7 @@
                         <thead>
                         <tr>
                             <th scope="col">Titulo</th>
-                            <th scope="col">fecha</th>
+                            <th scope="col">Fecha</th>
                             <th scope="col">Estado</th>
                             <th scope="col">Asignado a</th>
                             <th scope="col">Acciones</th>
@@ -40,17 +40,17 @@
                             <td><strong class="caseSelected">PENDIENTE</strong></td>
                             <td><strong id="caseSelected">Sin asignar</strong></td>
                             <td>
-                                <a class="btn-floating blue round-button" href="#" id="btnInfo" target= blank
-                                data-toggle="tooltip" data-placement="top" title="Click para mas información"><i class="fas fa-info action-button"></i></a>
+                                <a class="btn-floating blue round-button tooltipped" href="#" id="btnInfo" target= blank
+                                data-placement="top" data-tooltip="Más información"><i class="fas fa-info action-button"></i></a>
                                 
-                                <a class="btn-floating yellow round-button" href="#" id="btnUpdate" target= blank
-                                data-toggle="tooltip" data-placement="top" title=""><i class="fas fa-paint-brush action-button"></i></a>
+                                <a class="btn-floating yellow round-button tooltipped" href="#" id="btnUpdate" target= blank
+                                data-placement="top" data-tooltip="Editar caso"><i class="fas fa-paint-brush action-button"></i></a>
                                 
-                                <a class="btn-floating red round-button" href="#" id="btnDelete" target= blank
-                                data-toggle="tooltip" data-placement="top" title=""><i class="fas fa-trash action-button"></i></a>
+                                <a class="btn-floating red round-button tooltipped" href="#" id="btnDelete" target= blank
+                                data-placement="top" data-tooltip="Eliminar Caso"><i class="fas fa-trash action-button"></i></a>
                                 
-                                <a class="btn-floating green round-button" href="#" id="btnUserChange" target= blank
-                                data-toggle="tooltip" data-placement="top" title=""><i class="fas fa-users action-button"></i></a>
+                                <a class="btn-floating green round-button tooltipped" href="#" id="btnUserChange" target= blank
+                                data-placement="top" data-tooltip="Reasignar Caso"><i class="fas fa-users action-button"></i></a>
                             </td>
                         </tr>
                         <tr>
@@ -59,17 +59,17 @@
                             <td><strong class="caseSelected">PENDIENTE</strong></td>
                             <td><strong id="caseSelected">Sin asignar</strong></td>
                             <td>
-                                <a class="btn-floating blue round-button" href="#" id="btnInfo" target= blank
-                                data-toggle="tooltip" data-placement="top" title="Click para mas información"><i class="fas fa-info action-button"></i></a>
+                                <a class="btn-floating blue round-button tooltipped" href="#" id="btnInfo" target= blank
+                                data-placement="top" data-tooltip="Más información"><i class="fas fa-info action-button"></i></a>
                                 
-                                <a class="btn-floating yellow round-button" href="#" id="btnUpdate" target= blank
-                                data-toggle="tooltip" data-placement="top" title=""><i class="fas fa-paint-brush action-button"></i></a>
+                                <a class="btn-floating yellow round-button tooltipped" href="#" id="btnUpdate" target= blank
+                                data-placement="top" data-tooltip="Editar caso"><i class="fas fa-paint-brush action-button"></i></a>
                                 
-                                <a class="btn-floating red round-button" href="#" id="btnDelete" target= blank
-                                data-toggle="tooltip" data-placement="top" title=""><i class="fas fa-trash action-button"></i></a>
+                                <a class="btn-floating red round-button tooltipped" href="#" id="btnDelete" target= blank
+                                data-placement="top" data-tooltip="Eliminar Caso"><i class="fas fa-trash action-button"></i></a>
                                 
-                                <a class="btn-floating green round-button" href="#" id="btnUserChange" target= blank
-                                data-toggle="tooltip" data-placement="top" title=""><i class="fas fa-users action-button"></i></a>
+                                <a class="btn-floating green round-button tooltipped" href="#" id="btnUserChange" target= blank
+                                data-placement="top" data-tooltip="Reasignar Caso"><i class="fas fa-users action-button"></i></a>
                             </td>
                         </tr>
                         <tr>
@@ -78,17 +78,17 @@
                             <td><strong class="caseSelected">PENDIENTE</strong></td>
                             <td><strong id="caseSelected">Sin asignar</strong></td>
                             <td>
-                                <a class="btn-floating blue round-button" href="#" id="btnInfo" target= blank
-                                data-toggle="tooltip" data-placement="top" title="Click para mas información"><i class="fas fa-info action-button"></i></a>
+                                <a class="btn-floating blue round-button tooltipped" href="#" id="btnInfo" target= blank
+                                data-placement="top" data-tooltip="Más información"><i class="fas fa-info action-button"></i></a>
                                 
-                                <a class="btn-floating yellow round-button" href="#" id="btnUpdate" target= blank
-                                data-toggle="tooltip" data-placement="top" title=""><i class="fas fa-paint-brush action-button"></i></a>
+                                <a class="btn-floating yellow round-button tooltipped" href="#" id="btnUpdate" target= blank
+                                data-placement="top" data-tooltip="Editar caso"><i class="fas fa-paint-brush action-button"></i></a>
                                 
-                                <a class="btn-floating red round-button" href="#" id="btnDelete" target= blank
-                                data-toggle="tooltip" data-placement="top" title=""><i class="fas fa-trash action-button"></i></a>
+                                <a class="btn-floating red round-button tooltipped" href="#" id="btnDelete" target= blank
+                                data-placement="top" data-tooltip="Eliminar Caso"><i class="fas fa-trash action-button"></i></a>
                                 
-                                <a class="btn-floating green round-button" href="#" id="btnUserChange" target= blank
-                                data-toggle="tooltip" data-placement="top" title=""><i class="fas fa-users action-button"></i></a>
+                                <a class="btn-floating green round-button tooltipped" href="#" id="btnUserChange" target= blank
+                                data-placement="top" data-tooltip="Reasignar Caso"><i class="fas fa-users action-button"></i></a>
                             </td>
                         </tr>
                         </tbody>
