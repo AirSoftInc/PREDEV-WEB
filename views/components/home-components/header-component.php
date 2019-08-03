@@ -6,7 +6,7 @@
         <ul id="signIn" class="dropdown-content">
             <li><a class="black-text fz-13 modal-trigger" data-target="register-modal">REGISTRARSE</a></li>
             <li class="divider"></li>
-            <li><a class="black-tex fz-13" href="../views/dashboard/index.html">INICIAR SESIÓN</a></li>
+            <li><a class="black-tex fz-13" href="../views/dashboard/index.php">INICIAR SESIÓN</a></li>
         </ul>
 
         <div class="navbar-fixed">

@@ -1,7 +1,7 @@
 .page-title{
-    line-height: 62px;
+    line-height: 78px;
     font-size: 30px;
-    padding-left: 30%;
+    padding-left: 20%;
 }
 
 .das-img{
@@ -54,6 +54,27 @@
 
 .bb-10{
     border-bottom: solid 10px #64e500;
+}
+
+.mr-15{
+    margin-right: 15px !important;
+}
+
+.profile-buttom{
+    background-color: white;
+    border-radius: 45px;
+    height: 65px;
+    width: 65px;
+    margin-top: 7px;
+}
+
+.h-85{
+    height: 85px;
+}
+
+nav .nav-wrapper {
+    position: relative;
+    height: 105%;
 }
 
 

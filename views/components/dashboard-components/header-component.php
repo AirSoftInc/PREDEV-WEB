@@ -3,16 +3,10 @@
 </head>
 
 <header>
-    <nav class="top-nav bb-10">
+    <nav class="top-nav bb-10 h-85">
         <div class="nav-wrapper bg-blue">
             <a class="page-title">Panel administrador</a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="javascript:void(0)" class="nav-link dropdown-toggle " id="navbarDropdown4"
-                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fas fa-user-circle"></i>
-                    <span class="bg-success user-status"></span></a>    
-                </li>    
-            </ul>
+            <div class="right mr-15 profile-buttom"></div>
         </div>
     </nav>
 </header>

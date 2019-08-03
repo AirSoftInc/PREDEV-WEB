@@ -4,7 +4,7 @@
 
 <div class="section">
         <div class="col s12 m4 l3">
-            <ul id="nav-mobile" class="side-nav bg-blue hide-on-med-and-down" style="transform: translateX(0%);">
+            <ul id="nav-mobile" class="side-nav bg-blue" style="transform: translateX(0%);">
                 <li>
                     <div class="user-view">
                         <a href="../index.php"><img class="responsive-img center das-img"
