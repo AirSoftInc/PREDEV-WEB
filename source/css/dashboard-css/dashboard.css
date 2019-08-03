@@ -60,14 +60,6 @@
     margin-right: 15px !important;
 }
 
-.profile-buttom{
-    background-color: white;
-    border-radius: 45px;
-    height: 65px;
-    width: 65px;
-    margin-top: 7px;
-}
-
 .h-85{
     height: 85px;
 }
@@ -77,6 +69,49 @@ nav .nav-wrapper {
     height: 105%;
 }
 
+.fixed-action-btn.horizontal ul {
+    text-align: right;
+    right: 64px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 100%;
+    left: auto;
+    width: 171px;
+}
+
+.profile-buttom{
+    position: relative !important;
+    height: 14px !important;
+}
+
+nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.btn-floating {
+    margin-top: -28px;
+    margin-left: -6px;
+    margin-right: 8px;
+}
+
+.profile-buttom-size{
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.profile-img-size{
+    width: 65px;
+    height: 65px;
+}
+
+.icon-position{
+    margin-top: -11px;
+    padding-left: 3px;
+    color: white !important;
+}
+
+.icon-web{
+    margin-top: -11px;
+    padding-left: 0px;
+    color: white !important;
+}
 
 
 
