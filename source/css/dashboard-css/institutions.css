@@ -1,0 +1,23 @@
+.caseSelected{
+    color: rgba(0, 60, 255, 0.986);
+}
+
+.caseSelected2{
+    color: rgba(255, 0, 170, 0.986);
+}
+
+#caseSelected{
+    color: rgba(15, 102, 7, 0.918);
+}
+
+.round-button{
+    width: 30px;
+
+    height: 30px;
+}
+
+.action-button{
+    font-size: 15px !important;
+    margin-top: -5px;
+    position: absolute;
+}
