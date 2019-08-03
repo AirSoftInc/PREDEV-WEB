@@ -8,13 +8,13 @@
                 </div>
             </li>
             <li class="side-nav-title white-text">Menu</li>
-            <li class="side-nav-item active-green"><a class="collapsible-header black-text"><i
-                        class="white-text fas fa-home"></i>Inicio</a></li>
-            <li class="side-nav-item"><a href="#" class="a-nav white-text waves-effect"><i
+            <li class="side-nav-item" id="home"><a href="../dashboard/index.php" class="a-nav white-text waves-effect"><i
+                        class="white-text fas fa-hands-helping"></i>Inicio</a></li>
+            <li class="side-nav-item" id="institutions"><a href="#" class="a-nav white-text waves-effect"><i
                         class="white-text fas fa-hands-helping"></i>Instituciones</a></li>
-            <li class="side-nav-item"><a href="#" class="a-nav white-text waves-effect"><i
+            <li class="side-nav-item" id="statistics"><a href="#" class="a-nav white-text waves-effect"><i
                         class="white-text fas fa-chart-pie"></i>Estadisticas</a></li>
-            <li class="side-nav-item">
+            <li class="side-nav-item" id="cases">
                 <ul class="collapsible collapsible-accordion">
                     <li class="active"><a class="collapsible-header a-nav white-text"><i
                                 class="white-text fas fa-folder tiny"></i>Casos<i

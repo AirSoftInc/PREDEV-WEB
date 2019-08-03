@@ -1,8 +1,7 @@
 <header>
     <nav class="top-nav bb-10 h-85">
         <div class="nav-wrapper bg-blue">
-            <a class="page-title">Panel administrador</a>
-            <!-- <div class="right mr-15 profile-buttom"></div> -->
+            <a class="page-title" id="pageTitle"></a>
             <div class="profile-buttom">
                 <div class="fixed-action-btn horizontal click-to-toggle" style="position: absolute; right: 24px;">
                     <a class="btn-floating btn-large red profile-buttom-size">

@@ -23,6 +23,7 @@
 
     <script src="../../source/js/jquery-3.4.1.min.js"></script>
     <script src="../../source/js/materialize.min.js"></script>
+    <script src="../../source/js/dashboard-js/home.js"></script>
 </body>
 
 </html>

@@ -20,10 +20,10 @@
     ?>
 
     <main>
-        <div class="container align-container">
+        <div class="align-container">
             <div class="row">
                 <div class="col">
-                    <table class="striped">
+                    <table class="striped table-size">
                         <thead>
                         <tr>
                             <th scope="col">Titulo</th>
@@ -104,6 +104,7 @@
 
     <script src="../../source/js/jquery-3.4.1.min.js"></script>
     <script src="../../source/js/materialize.min.js"></script>
+    <script src="../../source/js/dashboard-js/general-cases.js"></script>
 </body>
 
 </html>
