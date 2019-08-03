@@ -122,3 +122,11 @@ nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul 
     width: 117%;
     display: table;
 }
+
+.side-nav {
+    width: 225px;
+}
+
+.color-icon{
+    background-color: #26a69a !important;
+}

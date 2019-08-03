@@ -1,0 +1,110 @@
+.background{
+  justify-content: center;
+  background-image:url("../img/login.png");
+  background-size: 80%;
+  background-size: auto 80px;
+  background-size: auto 80%;
+}
+
+.sec{
+	background-color: #4d4d4d;
+	color: white;
+	height: 300px;
+	width: 400px;
+	text-align:center;
+}
+
+.row{
+	width: 300px;
+	margin-top: -100px;
+}
+
+.login{
+	margin-top:10px;
+	width: 400px;
+}
+
+.logo_login{
+	width: 200px;
+	margin-left: 30px;
+	margin-top: 90px;
+}
+ 
+ #rect{
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding: 1rem;
+  text-align:center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.oval-half-red {
+	text-align: left;
+     height: 400px;
+     color: white;
+     background-color:#091426;
+     margin-top: -25px;
+     margin-left: -15px;
+     clip-path: polygon(0 0, 100% 0%, 55% 29%, 0% 100%);
+     opacity: .9;
+ }
+
+ .title_login{
+ 	color: white;
+ 	font-size: 30px;
+ 	margin-left: 40px;
+  font-family: Verdana, Geneva, sans-serif;
+
+ }
+
+ .subtitle_login{
+ 	color: white;
+ 	font-size: 20px;
+ 	margin-left: 40px;
+  margin-top: -10px;
+  font-family: Century Gothic, sans-serif;
+ }
+
+#password1{
+  font-size: 12px;
+  margin-left: 40px;
+  margin-top: -50px;
+}
+
+input[type=email]:not(.browser-default):focus:not([readonly]){
+  border-bottom: 1px solid #091426;
+  box-shadow: 0 1px 0 0 #091426;
+}
+
+input[type=email]:not(.browser-default):focus:not([readonly]) + label{
+  color: #091426;
+}
+
+input[type=password]:not(.browser-default):focus:not([readonly]){
+  border-bottom: 1px solid #091426;
+  box-shadow: 0 1px 0 0 #091426;
+}
+
+input[type=password]:not(.browser-default):focus:not([readonly]) + label{
+  color: #091426;
+}
+
+.border-radius{
+  border-radius: 25px;
+}
+
+.img-login{
+  width: 300px;
+  margin-top: 35px;
+}
+
+
+
+
+
+
+
+

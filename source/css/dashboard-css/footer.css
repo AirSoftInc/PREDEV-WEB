@@ -1,0 +1,26 @@
+
+.footer-size {
+    height: 50px !important;
+    padding-top: 3px !important;
+}
+
+.pl-35{
+    padding-left: 70px;
+}
+
+.page-footer{
+    background-color: white !important;
+    box-shadow: 0 0 20px rgba(115,105,215,.60);
+    transition: all .3s ease-out;
+}
+
+.footer-text{
+    color: #a1a3a9;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.714rem;
+}
+
+.page-footer .footer-copyright {
+    background-color: white !important;
+}

@@ -27,8 +27,8 @@
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="input-field col s6">
+                <div class="row" id="lastName">
+                    <!-- <div class="input-field col s6">
                         <i class="fas fa-user prefix position-icon"></i>
                         <input id="lastname" type="text">
                         <label for="icon_prefix">Primer Apellido</label>
@@ -38,7 +38,7 @@
                         <i class="fas fa-user prefix position-icon"></i>
                         <input id="surname" type="text">
                         <label for="icon_prefix">Segundo Apellido</label>
-                    </div>
+                    </div> -->
                 </div>
 
                 <div class="row" id="emailAndRfc"></div>

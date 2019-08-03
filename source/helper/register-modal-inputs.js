@@ -85,3 +85,21 @@ function aditionalInfo() {
     
     return aditionalInfo;
 }
+
+function getLastNames() {
+    const lastNames = `
+        <div class="input-field col s6">
+            <i class="fas fa-user prefix position-icon"></i>
+            <input id="lastname" type="text">
+            <label for="icon_prefix">Primer Apellido</label>
+        </div>
+
+        <div class="input-field col s6">
+            <i class="fas fa-user prefix position-icon"></i>
+            <input id="surname" type="text">
+            <label for="icon_prefix">Segundo Apellido</label>
+        </div>
+    `;
+    
+    return lastNames;
+}

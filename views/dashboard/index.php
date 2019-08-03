@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dashboard</title>
     <link rel="stylesheet" href="../../source/css/materialize.min.css">
@@ -17,13 +17,22 @@
     <?php 
         require_once("../components/dashboard-components/header-component.php");
     ?>
+
+    <main>
+        
+    </main>
+
     <?php 
         require_once("../components/dashboard-components/side-nav-component.php");
     ?>
 
+    <?php 
+        require_once("../components/dashboard-components/footer-component.php");
+    ?>
     <script src="../../source/js/jquery-3.4.1.min.js"></script>
     <script src="../../source/js/materialize.min.js"></script>
-    <script src="../../source/js/dashboard-js/home.js"></script>
+    <script src="../../source/js/dashboard-js/index.js"></script>
+    <script src="../../source/js/highcharts.js"></script>
 </body>
 
 </html>
