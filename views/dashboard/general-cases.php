@@ -47,10 +47,10 @@
                                 data-placement="top" data-tooltip="Editar caso"><i class="fas fa-paint-brush action-button"></i></a>
                                 
                                 <a class="btn-floating red round-button tooltipped" href="#" id="btnDelete" target= blank
-                                data-placement="top" data-tooltip="Eliminar Caso"><i class="fas fa-trash action-button"></i></a>
+                                data-placement="top" data-tooltip="Eliminar caso"><i class="fas fa-trash action-button"></i></a>
                                 
                                 <a class="btn-floating green round-button tooltipped" href="#" id="btnUserChange" target= blank
-                                data-placement="top" data-tooltip="Reasignar Caso"><i class="fas fa-users action-button"></i></a>
+                                data-placement="top" data-tooltip="Reasignar caso"><i class="fas fa-users action-button"></i></a>
                             </td>
                         </tr>
                         <tr>
@@ -66,10 +66,10 @@
                                 data-placement="top" data-tooltip="Editar caso"><i class="fas fa-paint-brush action-button"></i></a>
                                 
                                 <a class="btn-floating red round-button tooltipped" href="#" id="btnDelete" target= blank
-                                data-placement="top" data-tooltip="Eliminar Caso"><i class="fas fa-trash action-button"></i></a>
+                                data-placement="top" data-tooltip="Eliminar caso"><i class="fas fa-trash action-button"></i></a>
                                 
                                 <a class="btn-floating green round-button tooltipped" href="#" id="btnUserChange" target= blank
-                                data-placement="top" data-tooltip="Reasignar Caso"><i class="fas fa-users action-button"></i></a>
+                                data-placement="top" data-tooltip="Reasignar caso"><i class="fas fa-users action-button"></i></a>
                             </td>
                         </tr>
                         <tr>
@@ -85,10 +85,10 @@
                                 data-placement="top" data-tooltip="Editar caso"><i class="fas fa-paint-brush action-button"></i></a>
                                 
                                 <a class="btn-floating red round-button tooltipped" href="#" id="btnDelete" target= blank
-                                data-placement="top" data-tooltip="Eliminar Caso"><i class="fas fa-trash action-button"></i></a>
+                                data-placement="top" data-tooltip="Eliminar caso"><i class="fas fa-trash action-button"></i></a>
                                 
                                 <a class="btn-floating green round-button tooltipped" href="#" id="btnUserChange" target= blank
-                                data-placement="top" data-tooltip="Reasignar Caso"><i class="fas fa-users action-button"></i></a>
+                                data-placement="top" data-tooltip="Reasignar caso"><i class="fas fa-users action-button"></i></a>
                             </td>
                         </tr>
                         </tbody>
