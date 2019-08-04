@@ -82,7 +82,7 @@ nav .nav-wrapper {
 
 .profile-buttom{
     position: relative !important;
-    height: 14px !important;
+    height: 16px !important;
 }
 
 nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.btn-floating {
@@ -92,13 +92,13 @@ nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul 
 }
 
 .profile-buttom-size{
-    width: 60px !important;
-    height: 60px !important;
+    width: 50px !important;
+    height: 50px !important;
 }
 
 .profile-img-size{
-    width: 65px;
-    height: 65px;
+    width: 50px;
+    height: 50px;
 }
 
 .icon-position{
@@ -114,12 +114,12 @@ nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul 
 }
 
 .align-container{
-    margin-left: 273px;
+    margin-left: 235px;
     width: 161vh;
 }
 
 .table-size{
-    width: 117%;
+    width: 120%;
     display: table;
 }
 

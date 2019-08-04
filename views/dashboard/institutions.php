@@ -99,6 +99,10 @@
         require_once("../components/dashboard-components/side-nav-component.php");
     ?>
 
+    <?php 
+        require_once("../components/dashboard-components/footer-component.php");
+    ?>
+
     <script src="../../source/js/jquery-3.4.1.min.js"></script>
     <script src="../../source/js/materialize.min.js"></script>
     <script src="../../source/js/dashboard-js/institutions.js"></script>
