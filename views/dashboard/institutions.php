@@ -23,6 +23,7 @@
         <div class="align-container">
             <div class="row">
                 <div class="col">
+                    <br><br>
                     <table class="striped table-size">
                         <thead>
                         <tr>

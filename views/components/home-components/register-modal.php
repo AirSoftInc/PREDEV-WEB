@@ -2,6 +2,7 @@
     <link rel="stylesheet" href="../source/css/home-css/register-modal.css">
     <link rel="stylesheet" href="../source/css/alertify.core.css">
     <link rel="stylesheet" href="../source/css/alertify.default.css">
+    <link rel="stylesheet" href="../source/css/animate.css">
 </head>
 
 <div id="register-modal" class="modal">
@@ -69,7 +70,7 @@
                 </div>
                 <div class="right space-in-buttons">E</div>
                 <div>
-                    <button class="waves-effect waves-light btn right red border-radius">Cancelar</button>
+                    <a id="cancelForm" class="waves-effect waves-light btn right red border-radius">Cancelar</a>
                 </div>
             </div>
         </form>
@@ -79,5 +80,6 @@
 <script src="../source/js/jquery-3.4.1.min.js"></script>
 <script src="../source/js/home-js/register-modal.js"></script>
 <script src="../source/js/alertify.min.js"></script>
+<script src="../source/js/sweetalert2.js"></script>
 <script src="../source/helper/crud-function-service.js"></script>
 <script src="../source/helper/register-modal-inputs.js"></script>

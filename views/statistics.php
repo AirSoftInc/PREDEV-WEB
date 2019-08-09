@@ -28,6 +28,9 @@
     <script src="../source/js/jquery-3.4.1.min.js"></script>
     <script src="../source/js/materialize.min.js"></script>
     <script src="../source/js/home-js/statistics.js"></script>
+    <script src="../source/helper/lodash.js"></script>
+    <script src="../source/helper/scraping-helper.js"></script>
+    <script src="../service/scraping-service/scraping-service.js"></script>
 </body>
 
 </html>

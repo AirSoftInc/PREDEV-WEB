@@ -54,7 +54,40 @@ $(document).ready(function() {
       } 
     
       postFormWithResponse("../service/user-service/user-controller.php", userInstitutionForm, function (respose) {
-        console.log(respose);
+        if (respose === "SUCCESS") {
+          if (userType === "I") {
+            Swal.fire({
+              title: 'Su registro ha concluido con exito, se le analizara tu información y se te enviara una contraseña provisional por correo.',
+              animation: false,
+              customClass: {
+                popup: 'animated zoomInDown'
+              }
+            }) 
+          }else{
+            Swal.fire({
+              title: 'Su registro ha concluido con exito, se te enviara una contraseña provisional por correo.',
+              animation: false,
+              customClass: {
+                popup: 'animated zoomInDown'
+              }
+            }) 
+          } 
+        }else if (respose === "EXIST"){
+          Swal.fire({
+            title: 'El correo ya pertenece a un usuario PREDEV prueba con otro.',
+            animation: false,
+            customClass: {
+              popup: 'animated zoomInDown'
+            }
+          }) 
+        }else{
+          Swal.fire({
+            type: 'error',
+            title: 'Oops...',
+            text: 'Ocurrio un error en el servidor',
+            footer: '<a href>Contacte al administrador</a>'
+          })
+        }
       }); 
 
     } else {
@@ -63,4 +96,24 @@ $(document).ready(function() {
     e.preventDefault();
   });
 
+
+  $("#cancelForm").click(function () {
+    $('#register-modal').modal('close');
+      document.getElementById("name").value = "";
+      document.getElementById("lastName").value = "";
+      document.getElementById("surname").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("city").value = "";
+      document.getElementById("zipCode").value = "";
+      document.getElementById("municipality").value = "";
+      if (document.getElementById("userType").value == "I") {
+          document.getElementById("description").value = "";
+          document.getElementById("rfc").value = "";
+          document.getElementById("telephone").value = "";
+          document.getElementById("address").value = "";
+          document.getElementById("webPage").value = "";
+          document.getElementById("facebook").value = "";
+          document.getElementById("twitter").value = "";
+      }
+  });
 });
