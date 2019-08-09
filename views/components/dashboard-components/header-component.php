@@ -9,7 +9,7 @@
                     </a>
                     <ul>
                         <li><a class="btn-floating blue color-icon"><i class="fas fa-globe-americas icon-web"></i></a></li>
-                        <li><a class="btn-floating blue color-icon"><i class="fas fa-user-cog icon-position"></i></a></li>
+                        <li><a class="btn-floating blue color-icon" href="../dashboard/user-edit.php"><i class="fas fa-user-cog icon-position"></i></a></li>
                         <li><a class="btn-floating blue color-icon" href="../index.php"><i class="fas fa-sign-out-alt icon-position"></i></a></li>
                     </ul>
                 </div>
