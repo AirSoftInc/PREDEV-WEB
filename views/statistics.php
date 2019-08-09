@@ -16,11 +16,11 @@
     <?php 
         require_once("components/home-components/header-component.php");
     ?>
-
     <main>
-
+        <?php 
+        require_once("components/home-components/map-component.php")
+        ?>
     </main>
-
     <?php 
         require_once("components/home-components/footer-component.php");
     ?>

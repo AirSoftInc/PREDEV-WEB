@@ -43,7 +43,7 @@
             </form>
             <div class="row">
               <a id="init" class="btn waves-effect waves-light border-radius" type="submit" name="action" href="index.php">Cancelar</a>
-              <a id="init" class="btn waves-effect waves-light border-radius" type="submit" name="action" href="dashboard/index.php">Ingresar</a>
+              <a id="init" class="btn waves-effect waves-light border-radius" type="submit" name="action" href="index.php">Ingresar</a>
             </div>
         </div>
     </main>

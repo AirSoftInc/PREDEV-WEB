@@ -4,8 +4,8 @@
 
 <div id="register-modal" class="modal modal-fixed-footer">
     <div class="modal-content">
-        <h5 class="pl-10" id="divider-bold">INFORMACIÓN DE LA CUENTA</h5>
-        <div class="divider" id="divider-register"></div>
+        <h5 class="pl-10 divider-bold" id="">INFORMACIÓN DE LA CUENTA</h5>
+        <div class="divider divider-register" id=""></div>
         <br>
 
         <form class="col s12">
@@ -44,9 +44,9 @@
                 <div class="row" id="emailAndRfc"></div>
 
                 <div class="col s12">
-                    <h3 style="font-size: 25px;" class="title" id="divider-bold">UBICACIÓN</h3>
+                    <h3 style="font-size: 25px;" class="title divider-bold" id="">UBICACIÓN</h3>
                 </div>
-                <div class="divider col s12" id="divider-register"></div>
+                <div class="divider col s12 divider-register" id=""></div>
                                 
                 <div class="row">
                     <div class="input-field col s4">

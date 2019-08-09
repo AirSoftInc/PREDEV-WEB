@@ -39,12 +39,12 @@ textarea.materialize-textarea:focus:not([readonly]) + label{
     color: #091426;
 }
 
-#divider-bold{
+.divider-bold{
     color: #024A58;
     font-weight: bold;
 }
 
-#divider-register{
+.divider-register{
     background-color: #2999A5;
     height: 3px;
 }
