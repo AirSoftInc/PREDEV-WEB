@@ -56,6 +56,7 @@ $(document).ready(function() {
       postFormWithResponse("../service/user-service/user-controller.php", userInstitutionForm, function (respose) {
         if (respose === "SUCCESS") {
           if (userType === "I") {
+            $('#register-modal').modal('close');
             Swal.fire({
               title: 'Su registro ha concluido con exito, se le analizara tu información y se te enviara una contraseña provisional por correo.',
               animation: false,
@@ -64,6 +65,7 @@ $(document).ready(function() {
               }
             }) 
           }else{
+            $('#register-modal').modal('close');
             Swal.fire({
               title: 'Su registro ha concluido con exito, se te enviara una contraseña provisional por correo.',
               animation: false,

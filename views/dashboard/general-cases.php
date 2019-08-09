@@ -33,65 +33,7 @@
                             <th scope="col">Acciones</th>
                         </tr>
                         </thead>
-                        <tbody id="generalCases">
-                        <tr>
-                            <td>Acusan a Manuel Huerta por discriminación: exigen se disculpe</td>
-                            <td>7 marzo, 2019</td>
-                            <td><strong class="caseSelected">PENDIENTE</strong></td>
-                            <td><strong id="caseSelected">Sin asignar</strong></td>
-                            <td>
-                                <a class="btn-floating blue round-button tooltipped" href="#" id="btnInfo" target= blank
-                                data-placement="top" data-tooltip="Más información"><i class="fas fa-info action-button"></i></a>
-                                
-                                <a class="btn-floating yellow round-button tooltipped" href="#" id="btnUpdate" target= blank
-                                data-placement="top" data-tooltip="Editar caso"><i class="fas fa-paint-brush action-button"></i></a>
-                                
-                                <a class="btn-floating red round-button tooltipped" href="#" id="btnDelete" target= blank
-                                data-placement="top" data-tooltip="Eliminar caso"><i class="fas fa-trash action-button"></i></a>
-                                
-                                <a class="btn-floating green round-button tooltipped" href="#" id="btnUserChange" target= blank
-                                data-placement="top" data-tooltip="Reasignar caso"><i class="fas fa-users action-button"></i></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Exigen a CONAVIM avances por discriminación en servicios de salud</td>
-                            <td>20 mayo, 2019</td>
-                            <td><strong class="caseSelected">PENDIENTE</strong></td>
-                            <td><strong id="caseSelected">Sin asignar</strong></td>
-                            <td>
-                                <a class="btn-floating blue round-button tooltipped" href="#" id="btnInfo" target= blank
-                                data-placement="top" data-tooltip="Más información"><i class="fas fa-info action-button"></i></a>
-                                
-                                <a class="btn-floating yellow round-button tooltipped" href="#" id="btnUpdate" target= blank
-                                data-placement="top" data-tooltip="Editar caso"><i class="fas fa-paint-brush action-button"></i></a>
-                                
-                                <a class="btn-floating red round-button tooltipped" href="#" id="btnDelete" target= blank
-                                data-placement="top" data-tooltip="Eliminar caso"><i class="fas fa-trash action-button"></i></a>
-                                
-                                <a class="btn-floating green round-button tooltipped" href="#" id="btnUserChange" target= blank
-                                data-placement="top" data-tooltip="Reasignar caso"><i class="fas fa-users action-button"></i></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Maestro de primaria denuncia discriminación</td>
-                            <td>1 agosto, 2018</td>
-                            <td><strong class="caseSelected">PENDIENTE</strong></td>
-                            <td><strong id="caseSelected">Sin asignar</strong></td>
-                            <td>
-                                <a class="btn-floating blue round-button tooltipped" href="#" id="btnInfo" target= blank
-                                data-placement="top" data-tooltip="Más información"><i class="fas fa-info action-button"></i></a>
-                                
-                                <a class="btn-floating yellow round-button tooltipped" href="#" id="btnUpdate" target= blank
-                                data-placement="top" data-tooltip="Editar caso"><i class="fas fa-paint-brush action-button"></i></a>
-                                
-                                <a class="btn-floating red round-button tooltipped" href="#" id="btnDelete" target= blank
-                                data-placement="top" data-tooltip="Eliminar caso"><i class="fas fa-trash action-button"></i></a>
-                                
-                                <a class="btn-floating green round-button tooltipped" href="#" id="btnUserChange" target= blank
-                                data-placement="top" data-tooltip="Reasignar caso"><i class="fas fa-users action-button"></i></a>
-                            </td>
-                        </tr>
-                        </tbody>
+                        <tbody id="generalCases"></tbody>
                     </table>
                 </div>
             </div>
@@ -108,7 +50,9 @@
 
     <script src="../../source/js/jquery-3.4.1.min.js"></script>
     <script src="../../source/js/materialize.min.js"></script>
+    <script src="../../source/helper/crud-function-service.js"></script>
     <script src="../../source/js/dashboard-js/general-cases.js"></script>
+    <script src="../../source/js/sweetalert2.js"></script>
 </body>
 
 </html>

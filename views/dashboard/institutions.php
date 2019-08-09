@@ -37,8 +37,8 @@
                             <th scope="col">Eliminar</th>
                         </tr>
                         </thead>
-                        <tbody id="generalCases">
-                        <tr>
+                        <tbody id="generalInstitutions">
+                        <!-- <tr>
                             <td>12345</td>
                             <td>CONAPRED</td>
                             <td><strong class="caseSelected">quejas@conapred.org.mx</strong></td>
@@ -88,7 +88,7 @@
                                 data-toggle="tooltip" data-placement="top" title=""><i class="fas fa-trash action-button"></i></a>
                             
                             </td>
-                        </tr>
+                        </tr> -->
                         </tbody>
                     </table>
                 </div>
@@ -106,5 +106,6 @@
 
     <script src="../../source/js/jquery-3.4.1.min.js"></script>
     <script src="../../source/js/materialize.min.js"></script>
+    <script src="../../source/helper/crud-function-service.js"></script>
     <script src="../../source/js/dashboard-js/institutions.js"></script>
 </body>

@@ -3,7 +3,7 @@ $(document).ready(function(){
     onInit();
 
     function onInit() {
-        if (new Date().getDate() == 21) {
+        if (new Date().getDate() == 9) {
             getNewsFoundData();
         } 
     }
@@ -12,7 +12,7 @@ $(document).ready(function(){
     function getNewsFoundData() {
         newspaper.forEach(newspaper =>{
             const paperForm = { newspaper: newspaper };
-            postFormWithResponse("../../service/scraping-service/scraping-new-data-service.php",
+            postFormWithResponse("../service/scraping-service/scraping-new-data-service.php",
             paperForm, function(response){
                 try {
                     const newsFound = JSON.parse(response);
@@ -84,13 +84,13 @@ $(document).ready(function(){
     }
 
     function getContentByNew(newsFilter) {
-        const url = "../../service/scraping-service/save-case-service.php";
+        const url = "../service/scraping-service/save-case-service.php";
         newsFilter.forEach(news => {
             const newData = { 
                 url: news.link,
                 newspaper: news.newspaper
             };
-            postFormWithResponse("../../service/scraping-service/scraping-url.php", newData, function(response){
+            postFormWithResponse("../service/scraping-service/scraping-url.php", newData, function(response){
                 try {
                     let zoneCount = 0;
                     dataZone.forEach(zone =>{

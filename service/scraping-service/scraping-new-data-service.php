@@ -1,6 +1,6 @@
 <?php
     require_once('new-data-service.php');
-    include("../../public/dist/helper/simple-html-dom.php");
+    include("../../source/helper/simple-html-dom.php");
 
     $newspaper = $_POST['newspaper'];
 

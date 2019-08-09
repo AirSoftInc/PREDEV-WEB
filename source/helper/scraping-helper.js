@@ -21,7 +21,7 @@
     //     "EXCELSIOR", "SOL_MEXICO", "MILENIO", "YAHOO", "TWITTER", "GOOGLE", "BING", "IMAGEN_VERACRUZ"
     // ];
 
-    const newspaper = [ "VANGUARDIA" ];
+    const newspaper = [ "LA_POLITICA" ];
 
     const discriminationPhrases = [
         buildRegex("CRÍMENES DE ODIO"), buildRegex("DELITOS DE ODIO"), buildRegex("COMUNIDAD GAY"),

@@ -1,5 +1,5 @@
 <?php 
-    // include('../../config/connection.php');
+    include('../../config/connection.php');
 
     $operation = $_POST['operation'];
 
@@ -22,7 +22,13 @@
             $twitter = $_POST['twitter'];
 
             registerUser($name, $lastName, $surname, $email, $userType, $description, $rfc, $telephone, $address, $city, 
-            $zipCode, $municipality, $webPage, $facebook, $twitter);
+            $zipCode, $municipality, $webPage, $facebook, $twitter, $connection);
+        break;
+        case $operation == "getAllUsers":
+            $type = $_POST['type'];
+            $filter = $_POST['filter'];
+
+            getAllUsers($type, $filter, $connection);
         break;
         default:
             echo "ERROR 404";
@@ -30,9 +36,7 @@
     }
 
     function registerUser($name, $lastName, $surname, $email, $userType, $description, $rfc, $telephone, $address, $city, 
-        $zipCode, $municipality, $webPage, $facebook, $twitter){
-
-        include('../../config/connection.php');
+        $zipCode, $municipality, $webPage, $facebook, $twitter, $connection){
 
         $queryCount = "SELECT * FROM users WHERE email = '$email';";
         $countResult = mysqli_query($connection, $queryCount);
@@ -66,5 +70,36 @@
         }
     
         echo "SUCCESS";
+    }
+
+    function getAllUsers($type, $filter, $connection){
+        if (isset($type)) {
+            if ( $filter == "true") {
+                $query = "SELECT * FROM users WHERE user_type = '$type' && status = 1";
+                $result = mysqli_query($connection, $query);
+            } else {
+                $query = "SELECT * FROM users WHERE user_type = '$type'";
+                $result = mysqli_query($connection, $query);
+            }
+    
+            if (!$result) {
+                die('Query failed' . mysqli_error($connection));
+            }
+        
+            $json = array();
+        
+            while($row = mysqli_fetch_array($result)){
+                $json[] = array(
+                    'id' => $row['id'],
+                    'name' => $row['name'],
+                    'email' => $row['email'],
+                    'user_type' => $row['user_type'],
+                    'status' => $row['status']
+                );
+            }
+        
+            $jsonString = json_encode($json);
+            echo $jsonString;
+        }
     }
 ?>
