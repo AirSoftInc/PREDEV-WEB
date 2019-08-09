@@ -30,4 +30,9 @@ $(document).ready(function() {
       break;
     }
   }
+
+  $('#user-form').submit(function (e){
+    const userType = $('#userType').val();  
+  });
+
 });

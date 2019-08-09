@@ -2,7 +2,7 @@
     <link rel="stylesheet" href="../source/css/home-css/register-modal.css">
 </head>
 
-<div id="register-modal" class="modal modal-fixed-footer">
+<div id="register-modal" class="modal">
     <div class="modal-content">
         <h5 class="pl-10 divider-bold" id="">INFORMACIÓN DE LA CUENTA</h5>
         <div class="divider divider-register" id=""></div>
@@ -27,19 +27,7 @@
                     </div>
                 </div>
 
-                <div class="row" id="lastName">
-                    <!-- <div class="input-field col s6">
-                        <i class="fas fa-user prefix position-icon"></i>
-                        <input id="lastname" type="text">
-                        <label for="icon_prefix">Primer Apellido</label>
-                    </div>
-
-                    <div class="input-field col s6">
-                        <i class="fas fa-user prefix position-icon"></i>
-                        <input id="surname" type="text">
-                        <label for="icon_prefix">Segundo Apellido</label>
-                    </div> -->
-                </div>
+                <div class="row" id="lastName"></div>
 
                 <div class="row" id="emailAndRfc"></div>
 
@@ -72,13 +60,18 @@
 
                 <div id="aditionalInfo"></div>
             </div>
+
+            <div class="row">
+                
+            </div>
+
         </form>
     </div>
 
-    <div class="modal-footer">
+    <!-- <div class="modal-footer">
         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cancelar</a>
         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Registrarse</a>
-    </div>
+    </div> -->
 </div>
 
 <script src="../source/js/jquery-3.4.1.min.js"></script>
