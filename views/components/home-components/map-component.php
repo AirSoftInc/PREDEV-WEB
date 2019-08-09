@@ -1,4 +1,5 @@
 <head>
+    <link rel="stylesheet" href="../source/css/home-css/map-component.css">
 </head>
 <body>
     <div class="row">
@@ -881,6 +882,8 @@
                             style="fill:#b1d680;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.1883862;stroke-opacity:1" />
                     </g>
                 </svg>
+
+                <a class="button-1"><label class="selector" style="background-color: transparent; color:red;">Hola</label><button class="selector" style="solid: 3px"></button><div class="flecha"><i class="fas fa-chevron-right" style="color: red;font-size: 18px;"></div></i></a>
             </div>
         </div>
     </div>

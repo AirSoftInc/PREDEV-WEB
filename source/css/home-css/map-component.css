@@ -1,0 +1,20 @@
+.button-1 {
+    margin-top: -1070px;
+    margin-left: -766px;;
+    font-size: 10px;
+    position: relative;
+    font-weight: bold;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.selector{
+    width: 190px;
+    border: none;
+    background-color: red;
+}
+
+.flecha{
+    margin-top: -14px;
+    margin-left: 209px;
+}
