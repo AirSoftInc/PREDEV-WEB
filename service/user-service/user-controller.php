@@ -75,10 +75,12 @@
     function getAllUsers($type, $filter, $connection){
         if (isset($type)) {
             if ( $filter == "true") {
-                $query = "SELECT * FROM users WHERE user_type = '$type' && status = 1";
+                $query = "SELECT u.id, u.name, u.last_name, u.surname, u.email, u.user_type, u.status, ai.rfc, ai.telephone, ai.address, ai.zip_code, ai.municipality,
+                ai.web_page FROM users u, user_aditional_info ai WHERE u.id = ai.user_id && user_type = '$type' && status = 1";
                 $result = mysqli_query($connection, $query);
             } else {
-                $query = "SELECT * FROM users WHERE user_type = '$type'";
+                $query = "SELECT u.id, u.name, u.last_name, u.surname, u.email, u.user_type, u.status, ai.rfc, ai.telephone, ai.address, ai.zip_code, ai.municipality,
+                ai.web_page FROM users u, user_aditional_info ai WHERE u.id = ai.user_id && user_type = '$type'";
                 $result = mysqli_query($connection, $query);
             }
     
@@ -94,7 +96,13 @@
                     'name' => $row['name'],
                     'email' => $row['email'],
                     'user_type' => $row['user_type'],
-                    'status' => $row['status']
+                    'status' => $row['status'],
+                    'lasName' => $row['last_name'],
+                    'surname' => $row['surname'],
+                    'telephone' => $row['telephone'],
+                    'address' => $row['address'],
+                    'municipality' => $row['municipality'],
+                    'webPage' => $row['web_page']
                 );
             }
         

@@ -33,63 +33,11 @@
                             <th scope="col">Página web</th>
                             <th scope="col">Teléfono</th>
                             <th scope="col">Estatus</th>
-                            <th scope="col">Editar</th>
+                            <th scope="col">Aceptar</th>
                             <th scope="col">Eliminar</th>
                         </tr>
                         </thead>
-                        <tbody id="generalInstitutions">
-                        <!-- <tr>
-                            <td>12345</td>
-                            <td>CONAPRED</td>
-                            <td><strong class="caseSelected">quejas@conapred.org.mx</strong></td>
-                            <td><strong class="caseSelected2">www.conapred.org.mx</strong></td>
-                            <td>5552621490</td>
-                            <td><strong id="caseSelected">Aceptado</strong></td>
-                            <td>
-                                <a class="btn-floating yellow round-button" href="#" id="btnUpdate" target= blank
-                                data-toggle="tooltip" data-placement="top" title=""><i class="fas fa-paint-brush action-button"></i></a>                                    
-                            </td>
-                            <td>
-                                <a class="btn-floating red round-button" href="#" id="btnDelete" target= blank
-                                data-toggle="tooltip" data-placement="top" title=""><i class="fas fa-trash action-button"></i></a>
-                            
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>12346</td>
-                            <td>CNDH</td>
-                            <td><strong class="caseSelected">cndh.tv@cndh.org.mx.</strong></td>
-                            <td><strong class="caseSelected2">www.cndh.org.mx</strong></td>
-                            <td>9999421888</td>
-                            <td><strong id="caseSelected">Aceptado</strong></td>
-                            <td>
-                                <a class="btn-floating yellow round-button" href="#" id="btnUpdate" target= blank
-                                data-toggle="tooltip" data-placement="top" title=""><i class="fas fa-paint-brush action-button"></i></a>                                    
-                            </td>
-                            <td>
-                                <a class="btn-floating red round-button" href="#" id="btnDelete" target= blank
-                                data-toggle="tooltip" data-placement="top" title=""><i class="fas fa-trash action-button"></i></a>
-                            
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>12345</td>
-                            <td>DIF Cordoba</td>
-                            <td><strong class="caseSelected">comunicaciondifcordoba@gmail.com</strong></td>
-                            <td><strong class="caseSelected2">www.difcordoba.gob.mx/site/</strong></td>
-                            <td>2717121140</td>
-                            <td><strong id="caseSelected">Aceptado</strong></td>
-                            <td>
-                                <a class="btn-floating yellow round-button" href="#" id="btnUpdate" target= blank
-                                data-toggle="tooltip" data-placement="top" title=""><i class="fas fa-paint-brush action-button"></i></a>                                    
-                            </td>
-                            <td>
-                                <a class="btn-floating red round-button" href="#" id="btnDelete" target= blank
-                                data-toggle="tooltip" data-placement="top" title=""><i class="fas fa-trash action-button"></i></a>
-                            
-                            </td>
-                        </tr> -->
-                        </tbody>
+                        <tbody id="generalInstitutions"></tbody>
                     </table>
                 </div>
             </div>
@@ -108,4 +56,6 @@
     <script src="../../source/js/materialize.min.js"></script>
     <script src="../../source/helper/crud-function-service.js"></script>
     <script src="../../source/js/dashboard-js/institutions.js"></script>
+    <script src="../../source/js/sweetalert2.js"></script>
+
 </body>
