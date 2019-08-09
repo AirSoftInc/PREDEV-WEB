@@ -17,6 +17,15 @@
         require_once("components/home-components/header-component.php");
     ?>
     <main>
+        <div class="section container-title ">
+            <div class="container  section-title center">
+                <h3 class="white-text">Estadisticas discriminatorias en Veracruz</h3>
+                <h4>Denuncia, no te calles ¡PREDEV está contigo!</h4>
+            </div>
+        </div>
+        <div class="">
+            <p class="parrafo" style="margin-left: 500px; margin-top: 50px; color: #333333; font-size: 20px; font-family: Roboto; font-weight: bold;">Mapa estadístico de discriminación</p>
+        </div>
         <?php 
         require_once("components/home-components/map-component.php")
         ?>
