@@ -27,6 +27,8 @@
 
     <script src="../source/js/jquery-3.4.1.min.js"></script>
     <script src="../source/js/materialize.min.js"></script>
+    <script src="../source/js/highcharts.js"></script>
+    <script src="../source/js/exporting-chart.js"></script>
     <script src="../source/js/home-js/statistics.js"></script>
     <script src="../source/helper/municipality-helper.js"></script> 
     <script src="../source/helper/crud-function-service.js"></script>    

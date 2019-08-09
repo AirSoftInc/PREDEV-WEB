@@ -940,7 +940,7 @@
                     </div>
                 </a>
 
-                <a class="button tuxtla modal-trigger"  href="#tuxtla-modal">
+                <a class="button tuxtla modal-trigger" href="#tuxtla-modal">
                     <label class="selector-zones">Los Tuxtla</label>
                     <button class="selector selector-tuxtla"></button>
                     <div class="flecha flecha-tuxtla">
@@ -963,6 +963,11 @@
                         <i class="fas fa-chevron-right"></i>
                     </div>
                 </a>
+            </div>
+
+            <div class="align-container"
+                style="position: absolute !important; margin-left: 600px !important; margin-top: -587px !important;">
+                <div id="container" class="pie-chart-position"></div>
             </div>
 
             <div id="huasteca-alta-modal" class="modal">
@@ -1109,10 +1114,10 @@
                     <img class="map-img" src="../source/img/papaloapan.jpg">
                     <ul style="text-align: justify;">
                         <li><strong>Ubicación:</strong> La región limita al norte con la región de Sotavento y el
-                     Golfo de México, al sur con el Estado de Oaxaca, al oeste
-                     con las regiones de Sotavento y Capital, al este con la
-                     región de Los Tuxtlas y al sureste con la región Olmeca.</li>
-                  <li><strong>Tamaño:</strong> 10,461 km2.</li>
+                            Golfo de México, al sur con el Estado de Oaxaca, al oeste
+                            con las regiones de Sotavento y Capital, al este con la
+                            región de Los Tuxtlas y al sureste con la región Olmeca.</li>
+                        <li><strong>Tamaño:</strong> 10,461 km2.</li>
                     </ul>
                 </div>
                 <div class="modal-footer">
@@ -1126,17 +1131,16 @@
                     <img class="map-img" src="../source/img/olmeca.jpg">
                     <ul style="text-align: justify;">
                         <li><strong>Ubicación:</strong> La región limita al noroeste con las regiones de Los
-                     Tuxtlas y Papaloapan, al oeste con el Estado de Oaxaca,
-                     al este con Tabasco, al norte con el Golfo de México y al
-                     sur con el Estado de Oaxaca.</li>
-                  <li><strong>Tamaño:</strong> 16,506 km2.</li>
+                            Tuxtlas y Papaloapan, al oeste con el Estado de Oaxaca,
+                            al este con Tabasco, al norte con el Golfo de México y al
+                            sur con el Estado de Oaxaca.</li>
+                        <li><strong>Tamaño:</strong> 16,506 km2.</li>
                     </ul>
                 </div>
                 <div class="modal-footer">
                     <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
                 </div>
             </div>
-
         </div>
     </div>
 </body>

@@ -168,3 +168,18 @@
     width: 700px;
     height: 300px;
 }
+
+.pie-chart-position{
+    min-width: 310px;
+    height: 400px;
+    max-width: 600px;
+    overflow: hidden;
+    margin-top: 6px;
+}
+
+.highcharts-credits{
+  cursor: none !important;
+  color: transparent !important;
+  font-size: 1px !important;
+  fill: transparent !important;
+}
