@@ -1,6 +1,7 @@
 <head>
     <link rel="stylesheet" href="../source/css/home-css/map-component.css">
 </head>
+
 <body>
     <div class="row">
         <div class="container">
@@ -883,8 +884,259 @@
                     </g>
                 </svg>
 
-                <a class="button-1"><label class="selector" style="background-color: transparent; color:red;">Hola</label><button class="selector" style="solid: 3px"></button><div class="flecha"><i class="fas fa-chevron-right" style="color: red;font-size: 18px;"></div></i></a>
+                <a class="button huasteca-alta modal-trigger" href="#huasteca-alta-modal">
+                    <label class="selector-zones">Huasteca Alta</label>
+                    <button class="selector selector-huasteca-alta"></button>
+                    <div class="flecha flecha-huasteca-alta">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </a>
+
+                <a class="button huasteca-baja modal-trigger" href="#huasteca-baja-modal">
+                    <label class="selector-zones">Huasteca Baja</label>
+                    <button class="selector selector-huasteca-baja"></button>
+                    <div class="flecha flecha-huasteca-baja">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </a>
+
+                <a class="button totonaca modal-trigger" href="#totonaca-modal">
+                    <label class="selector-zones">Totonaca</label>
+                    <button class="selector selector-totonaca"></button>
+                    <div class="flecha flecha-totonaca">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </a>
+
+                <a class="button nautla modal-trigger" href="#nautla-modal">
+                    <label class="selector-zones">Nautla</label>
+                    <button class="selector selector-nautla"></button>
+                    <div class="flecha flecha-nautla">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </a>
+
+                <a class="button capital modal-trigger" href="#capital-modal">
+                    <label class="selector-zones">Capital</label>
+                    <button class="selector selector-capital"></button>
+                    <div class="flecha flecha-capital">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </a>
+
+                <a class="button sotavento modal-trigger" href="#sotavento-modal">
+                    <label class="selector-zones">Sotavento</label>
+                    <button class="selector selector-sotavento"></button>
+                    <div class="flecha flecha-sotavento">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </a>
+
+                <a class="button montañas modal-trigger" href="#montañas-modal">
+                    <label class="selector-zones">Las Montañas</label><button
+                        class="selector selector-montañas"></button>
+                    <div class="flecha flecha-montañas">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </a>
+
+                <a class="button tuxtla modal-trigger"  href="#tuxtla-modal">
+                    <label class="selector-zones">Los Tuxtla</label>
+                    <button class="selector selector-tuxtla"></button>
+                    <div class="flecha flecha-tuxtla">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </a>
+
+                <a class="button papaloapan modal-trigger" href="#papaloapan-modal">
+                    <label class="selector-zones">Papaloapan</label>
+                    <button class="selector selector-papaloapan"></button>
+                    <div class="flecha flecha-papaloapan">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </a>
+
+                <a class="button olmeca modal-trigger" href="#olmeca-modal">
+                    <label class="selector-zones">Olmeca</label>
+                    <button class="selector selector-olmeca"></button>
+                    <div class="flecha flecha-olmeca">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </a>
             </div>
+
+            <div id="huasteca-alta-modal" class="modal">
+                <div class="modal-content">
+                    <h4>Hausteca Alta</h4>
+                    <img class="map-img" src="../source/img/Huastecaalta.jpg">
+                    <ul style="text-align: justify;">
+                        <li><strong>Ubicación:</strong> La región Huasteca Alta se localiza al norte del Estado
+                            de Veracruz, colinda al norte con el estado de
+                            Tamaulipas, al este con el Golfo de México, al oeste
+                            con San Luis Potosí, y al sur con la región Huasteca
+                            Baja.</li>
+                        <li><strong>Tamaño:</strong> 12,226.23 km2</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+                </div>
+            </div>
+
+            <div id="huasteca-baja-modal" class="modal">
+                <div class="modal-content">
+                    <h4>Hausteca Baja</h4>
+                    <img class="map-img" src="../source/img/huastecabaja.jpg">
+                    <ul style="text-align: justify;">
+                        <li><strong>Ubicación:</strong> La región Huasteca Baja está situada al norte del Estado,
+                            colinda al
+                            norte con la región Huasteca Alta, al este con el Golfo de
+                            México, al oeste con el estado de Hidalgo y al sur con el
+                            Estado de Puebla y la región Totonaca.</li>
+                        <li><strong>Tamaño:</strong> 7,257.242Km2.</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+                </div>
+            </div>
+
+            <div id="totonaca-modal" class="modal">
+                <div class="modal-content">
+                    <h4>Totonaca</h4>
+                    <img class="map-img" src="../source/img/totonaca.jpg">
+                    <ul style="text-align: justify;">
+                        <li><strong>Ubicación:</strong> La región limita al norte con la región de la
+                            Huasteca Baja, al sur con la región de Nautla, al oeste
+                            con los estados de Hidalgo y Puebla y al este con el Golfo de
+                            México. </li>
+                        <li><strong>Tamaño:</strong> 4,281 km2.</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+                </div>
+            </div>
+
+            <div id="nautla-modal" class="modal">
+                <div class="modal-content">
+                    <h4>Nautla</h4>
+                    <img class="map-img" src="../source/img/nautla.jpg">
+                    <ul style="text-align: justify;">
+                        <li><strong>Ubicación:</strong> La región Nautla está situada en el centro-norte del Estado;
+                            colinda
+                            al norte con la región Totonaca, al sur con las
+                            regiones de la Capital y las Montañas, al este con el Golfo
+                            de México y al oeste con el Estado de Puebla.</li>
+                        <li><strong>Tamaño:</strong> 3,329.63 Km2.</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+                </div>
+            </div>
+
+            <div id="capital-modal" class="modal">
+                <div class="modal-content">
+                    <h4>Capital</h4>
+                    <img class="map-img" src="../source/img/capital.png">
+                    <ul style="text-align: justify;">
+                        <li><strong>Ubicación:</strong> La región limita al norte con la región de Nautla, al este con
+                            el Golfo de México, al oeste con el Estado de Puebla, y al
+                            sur con las regiones del Sotavento y de Las Montañas.</li>
+                        <li><strong>Tamaño:</strong> 5,327 km2.</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+                </div>
+            </div>
+
+            <div id="sotavento-modal" class="modal">
+                <div class="modal-content">
+                    <h4>Sotavento</h4>
+                    <img class="map-img" src="../source/img/sotavento.jpg">
+                    <ul style="text-align: justify;">
+                        <li><strong>Ubicación:</strong> La región limita al norte con la región de la capital. La
+                            Capital, al
+                            este con el Golfo
+                            de México, al oeste con la región de las Montañas y al sur
+                            con la región del Papaloapan.</li>
+                        <li><strong>Tamaño:</strong> 3,961 km2.</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+                </div>
+            </div>
+
+            <div id="montañas-modal" class="modal">
+                <div class="modal-content">
+                    <h4>Las Montañas</h4>
+                    <img class="map-img" src="../source/img/montañas.jpeg">
+                    <ul style="text-align: justify;">
+                        <li><strong>Ubicación:</strong> La región de las Montañas está ubicada en la parte centrosur del
+                            Estado. Colinda al norte con la región Capital, al este con la región
+                            Sotavento, la oeste con el Estado de Puebla, al sureste con
+                            la región del Papaloapan y al sur con el Estado de Oaxaca.</li>
+                        <li><strong>Tamaño:</strong> 6,350.85 Km2.</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+                </div>
+            </div>
+
+            <div id="tuxtla-modal" class="modal">
+                <div class="modal-content">
+                    <h4>Los Tuxtla</h4>
+                    <img class="map-img" src="../source/img/tuxtla.jpg">
+                    <ul style="text-align: justify;">
+                        <li><strong>Ubicación:</strong> La región limita al norte con el Golfo de México, al este y
+                            sureste con la región Olmeca y al oeste con la región del
+                            Papaloapan.</li>
+                        <li><strong>Tamaño:</strong> 2,947 km2.</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+                </div>
+            </div>
+
+            <div id="papaloapan-modal" class="modal">
+                <div class="modal-content">
+                    <h4>Papaloapan</h4>
+                    <img class="map-img" src="../source/img/papaloapan.jpg">
+                    <ul style="text-align: justify;">
+                        <li><strong>Ubicación:</strong> La región limita al norte con la región de Sotavento y el
+                     Golfo de México, al sur con el Estado de Oaxaca, al oeste
+                     con las regiones de Sotavento y Capital, al este con la
+                     región de Los Tuxtlas y al sureste con la región Olmeca.</li>
+                  <li><strong>Tamaño:</strong> 10,461 km2.</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+                </div>
+            </div>
+
+            <div id="olmeca-modal" class="modal">
+                <div class="modal-content">
+                    <h4>Olmeca</h4>
+                    <img class="map-img" src="../source/img/olmeca.jpg">
+                    <ul style="text-align: justify;">
+                        <li><strong>Ubicación:</strong> La región limita al noroeste con las regiones de Los
+                     Tuxtlas y Papaloapan, al oeste con el Estado de Oaxaca,
+                     al este con Tabasco, al norte con el Golfo de México y al
+                     sur con el Estado de Oaxaca.</li>
+                  <li><strong>Tamaño:</strong> 16,506 km2.</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+                </div>
+            </div>
+
         </div>
     </div>
 </body>
