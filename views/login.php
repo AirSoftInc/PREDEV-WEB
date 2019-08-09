@@ -24,8 +24,8 @@
             <img class="logo_login img-login" src="../source/img/PREDEV.png">
           </a>
           <h2 class="title_login">Bienvenido</h2>
-          <h1 class="subtitle_login" >Iniciar Sesion</h1>
-          <a href="index.php"><i class="fas fa-home"></i> Regresar a pagina principal</a>
+          <h1 class="subtitle_login" >Iniciar Sesión</h1>
+          <a href="index.php"><i class="fas fa-home"></i> Regresar a inicio</a>
         </div> 
 
         <div class="row">

@@ -2,7 +2,7 @@ function getEmailonly(){
     const emailOnly =  `
         <div class="input-field col s12">
             <i class="fas fa-envelope prefix position-icon"></i>
-            <input id="email" type="text">
+            <input id="email" type="text" onblur="validateEmail(this.value, 'correo electronico')">
             <label for="icon_prefix">Correo Electrónico</label>
         </div>
     `;
@@ -14,13 +14,13 @@ function getEmailAndRfc() {
     const emailAndRfc = `
         <div class="input-field col s6">
             <i class="fas fa-envelope prefix position-icon"></i>
-            <input id="email" type="text">
+            <input id="email" type="text" onblur="validateEmail(this.value, 'correo electronico')">
             <label for="icon_prefix">Correo Electrónico</label>
         </div>
 
         <div class="input-field col s6">
             <i class="fas fa-key prefix position-icon"></i>
-            <input id="rfc" type="text">
+            <input id="rfc" type="text" onblur="validateRfc(this.value, 'RFC')">
             <label for="icon_prefix">RFC</label>
         </div>
     `;
@@ -51,7 +51,7 @@ function aditionalInfo() {
         <div class="row">
             <div class="input-field col s6">
                 <i class="fas fa-phone prefix position-icon"></i>
-                <input id="telephone" type="text">
+                <input id="telephone" type="text" onblur="validateNumber(this.value, 'número')">
                 <label for="icon_prefix">Teléfono</label>
             </div>
 
@@ -90,13 +90,13 @@ function getLastNames() {
     const lastNames = `
         <div class="input-field col s6">
             <i class="fas fa-user prefix position-icon"></i>
-            <input id="lastname" type="text">
+            <input id="lastname" type="text" onblur="validateAlphanumeric(this.value, 'apellido')">
             <label for="icon_prefix">Primer Apellido</label>
         </div>
 
         <div class="input-field col s6">
             <i class="fas fa-user prefix position-icon"></i>
-            <input id="surname" type="text">
+            <input id="surname" type="text" onblur="validateAlphanumeric(this.value, 'apellido')">
             <label for="icon_prefix">Segundo Apellido</label>
         </div>
     `;

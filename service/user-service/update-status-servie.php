@@ -41,7 +41,7 @@
                 Principales actividades de PREDEV:</p>
             <ul style="font-size: 15px;  margin: 10px 0">
                 <li>Registro de casos de discriminación.</li>
-                <li>Estadisticas en el estado de Veracruz.</li>
+                <li>Estadísticas en el estado de Veracruz.</li>
                 <li>Participación ciudadana.</li>
             </ul>
             <p><h2>Tu contraseña temporal es: ';$mensage .= $new_password; $mensage .=' </h2></p>

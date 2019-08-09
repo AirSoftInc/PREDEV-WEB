@@ -47,7 +47,7 @@
                         <p>Xalapa, Ver.- Durante 2018, Veracruz fue la entidad que aportó el mayor número de las quejas presentadas ante la Comisión Nacional de Derechos Humanos por violaciones a los derechos...</p>
                         </div>
                         <div class="card-action">
-                        <a href="https://www.diarioelmundo.com.mx/index.php/2019/01/16/veracruz-el-estado-con-mas-quejas-por-discriminacion-personas-con-vih/">Más información...</a>
+                        <a href="https://www.diarioelmundo.com.mx/index.php/2019/01/16/veracruz-el-estado-con-mas-quejas-por-discriminacion-personas-con-vih/" target="_blank">Más información...</a>
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                         <p>Xalapa, Ver.- Para la Comisión Nacional para Prevenir la Discriminación (Conapred), el estado de Veracruz es foco rojo en temas como la discriminación hacia grupos étnicos y violencia contra...</p>
                         </div>
                         <div class="card-action">
-                        <a href="https://www.diarioelmundo.com.mx/index.php/2016/12/20/veracruz-foco-rojo-en-discriminacion-contra-grupos-etnicos-y-mujeres-2/">Más información...</a>
+                        <a href="https://www.diarioelmundo.com.mx/index.php/2016/12/20/veracruz-foco-rojo-en-discriminacion-contra-grupos-etnicos-y-mujeres-2/" target="_blank">Más información...</a>
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                         <p>La integrante del Observatorio Nacional contra los Crímenes de Odio, Jazz Bustamante Hernández, señaló que la lucha por los derechos de la comunidad LGBTTTI no deben limitarse a recibir...</p>
                         </div>
                         <div class="card-action">
-                        <a href="https://www.diarioelmundo.com.mx/index.php/2019/05/20/veracruz-a-la-cabeza-en-crimenes-de-odio/">Más información...</a>
+                        <a href="https://www.diarioelmundo.com.mx/index.php/2019/05/20/veracruz-a-la-cabeza-en-crimenes-de-odio/" target="_blank">Más información...</a>
                         </div>
                     </div>
                 </div>

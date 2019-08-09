@@ -19,7 +19,7 @@
     <main>
         <div class="section container-title ">
             <div class="container  section-title center">
-                <h3 class="white-text">Estadisticas discriminatorias en Veracruz</h3>
+                <h3 class="white-text">Estadísticas discriminatorias en Veracruz</h3>
                 <h4>Denuncia, no te calles ¡PREDEV está contigo!</h4>
             </div>
         </div>

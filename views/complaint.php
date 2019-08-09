@@ -19,11 +19,11 @@
               <div class="card teal">
                 <div class="card-content white-text">
                   <span class="card-title" style="background-color: transparent;
-    opacity: 1;">Denuncias y comentarios</span>
+                    opacity: 1;">Denuncias y comentarios</span>
                   <div class="divider"></div>
                   <br><br>
-                  <p>Todas las denuncias y comentarios que realices en esta plataforma serviran como estadisticas para la misma
-                    así, como las instituciones colaboradoras trabajaran en el analizis de tus comentarios.
+                  <p>Todas las denuncias y comentarios que realices en esta plataforma servirán como estadísticas para la misma
+                   así, como las instituciones colaboradoras trabajaran en el análisis de tus comentarios.
                   </p>
                   <br><br>
                   <div class="container" id="contentMessage"></div>
@@ -34,7 +34,7 @@
                       <textarea id="textarea1" class="materialize-textarea"></textarea>
                       <label for="textarea1">Describe tu caso</label>
                     </div>
-                    <button class="btn waves-effect waves-light col s" style="margin-top: 24px; 
+                    <button class="btn waves-effect waves-light col s tooltipped" data-position="top" data-tooltip="Enviar" style="margin-top: 24px; 
                     border-radius: 43px; padding-left: 7px; background-color: #091426;" id="publish-button"><i class="fas fa-paper-plane"></i></button>
                   </div>
                 </div>

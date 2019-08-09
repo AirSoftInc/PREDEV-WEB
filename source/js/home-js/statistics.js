@@ -1,14 +1,20 @@
+let statisticsZone = [];
 $(document).ready(function () {
     $("#statistics").addClass("active-a");
+    getValues();
+
+    function getValues(){
+      dataZone.forEach(zone=>{
+        const form = {zone: zone.zone}
+        retriveWithParams("../service/cases-service/statistics-service.php", form, function (response) {  
+          statisticsZone.push({zone: zone.zone, count: response});
+        });
+      });
+    }
 });
 
-onInit();
-
-function onInit(){
-    
-}
-
-Highcharts.setOptions({
+setTimeout(() => {
+  Highcharts.setOptions({
     lang: {
         viewFullscreen: "Ver en pantalla completa"
     },
@@ -58,16 +64,16 @@ Highcharts.setOptions({
     series: [{
       name: 'Share',
       data: [
-        {name: 'Capital', y: 23.5},
-        {name: 'HuastecaAlta', y: 5.9},
-        {name: 'HuastecaBaja', y: 10.3},
-        {name: 'LasMontanas', y: 17.6},
-        {name: 'LosTuxtlas', y: 14.7},
-        {name: 'Nautla', y: 4.4},
-        {name: 'Olmeca', y: 2.9},
-        {name: 'Papaloapan', y: 8.8},
-        {name: 'Sotavento', y: 4.4},
-        {name: 'Totonaca', y: 7.4}        
+        {name: 'Capital', y: parseInt(statisticsZone[0].count)},
+        {name: 'Huasteca Alta', y: parseInt(statisticsZone[1].count)},
+        {name: 'Huasteca Baja', y: parseInt(statisticsZone[2].count)},
+        {name: 'Las Montañas', y: parseInt(statisticsZone[3].count)},
+        {name: 'LosTuxtlas', y: parseInt(statisticsZone[4].count)},
+        {name: 'Nautla', y: parseInt(statisticsZone[5].count)},
+        {name: 'Olmeca', y: parseInt(statisticsZone[6].count)},
+        {name: 'Papaloapan', y: parseInt(statisticsZone[7].count)},
+        {name: 'Sotavento', y: parseInt(statisticsZone[8].count)},
+        {name: 'Totonaca', y: parseInt(statisticsZone[9].count)}        
       ]
     }],
     exporting: {
@@ -78,3 +84,4 @@ Highcharts.setOptions({
         }
     }
   });
+}, 1000);
