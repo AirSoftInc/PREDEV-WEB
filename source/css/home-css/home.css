@@ -6,13 +6,18 @@
   .card-title{
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     padding-left: 52px;
+    background: rgb(8, 20, 37); 
+    opacity: .6;   
+  }
+  .card-title-title{
+    opacity: 1 !important;
   }
 
   .card-image{
     position: relative;
-    overflow: hidden;
+    overflow: hidden;  
     
   }
 
@@ -25,6 +30,17 @@
     text-align: center;
     transition: all 0.6s;
   }
+
+  .card-container{
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+    
+  }
+  
+  .h4-1{
+    opacity: .9;
+  }
+  
 
   .section-title {
     margin: 0 auto 62px;
@@ -92,4 +108,8 @@
     margin-left:18px !important; 
     margin-right: 12px !important; 
     padding: 12px 8px !important; 
+  }
+  .row{
+    background-color: rgb(8, 20, 37);
+  
   }

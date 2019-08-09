@@ -12,7 +12,7 @@
         <div class="navbar-fixed">
             <nav role="navigation" class="header-color">
                 <div class="nav-wrapper">
-                    <a href="../views/index.html" id="logo-container" class="brand-logo "><img class="logo_img"
+                    <a href="../views/index.php" id="logo-container" class="brand-logo "><img class="logo_img"
                             src="../source/img/PREDEV.png"></a>
                     <ul class="right hide-on-med-and-down ">
                         <li><a href="../views/index.php" id="home" class="a-nav tooltipped" data-position="button" data-tooltip="Inicio"

@@ -1,27 +1,20 @@
 $(document).ready(function(){
-    $('.carousel').carousel({fullWidth: true});
+    $('.carousel').carousel();
     
-    $('#cardOne').click(function (e) {
-        $('.carousel').carousel('next'); 
-        e.preventDefault();
-    });
+    // Next slide
+    $('.carousel').carousel('next');
+    $('.carousel').carousel('next', 3); // Move next n times.
 
-    $('#cardTwo').click(function (e) {
-        $('.carousel').carousel('next'); 
-        e.preventDefault();
-    });
+    // Previous slide
+    $('.carousel').carousel('prev');
+    $('.carousel').carousel('prev', 4); // Move prev n times.
 
-    $('#cardThree').click(function (e) {
-        $('.carousel').carousel('next'); 
-        e.preventDefault();
-    });
+    // Set to nth slide
+    $('.carousel').carousel('set', 4);
 
-    $('#cardFour').click(function (e) {
-        $('.carousel').carousel('next'); 
-        e.preventDefault();
-    });
-
-    setInterval(() => {
-        $('.carousel').carousel('next');
-    }, 4000);
+    // Destroy carousel
+    $('.carousel').carousel('destroy');
+    
+    $('.carousel.carousel-slider').carousel({fullWidth: true});
   });
+      

@@ -37,12 +37,12 @@
                 <strong class="text-footer-item font-color-green ml-4">LLADORES</strong></div>
                 <br>
                 <i class="fas fa-phone font-color-blue fz-20"></i>
-                <label class="font-color-gray fz-15"> Telefono:</label>
+                <label class="font-color-gray fz-15"> Teléfono:</label>
                 <p class="s12 font-color-gray mt-2">272-224-8659</p>
                 <br>
                 <i class="fas fa-envelope font-color-blue fz-20"></i>
-                <label class="font-color-gray fz-15"> Correo electronico:</label>
-                <p class="s12 font-color-gray mt-2">airssoft.develop@outlook.com</p>
+                <label class="font-color-gray fz-15"> Correo electrónico:</label>
+                <p class="s12 font-color-gray mt-2">airsoft.develop@outlook.com</p>
             </div>
 
         </div>
