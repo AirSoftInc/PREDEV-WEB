@@ -20,7 +20,7 @@
                         <li><a class="a-nav tooltipped" data-position="button" data-tooltip="Discriminación en Veracruz"
                                 data-delay="50" href="../views/statistics.php" id="statistics"><i class="fas fa-chart-pie tiny"></i> ESTADISTICAS</a></li>
                         <li><a class="a-nav tooltipped" data-position="button"
-                                data-tooltip="Instituciones colaboradoras" data-delay="50" href="#" id="collaborations"><i class="fas fa-hands-helping tiny"></i> COLABORACIONES</a>
+                                data-tooltip="Instituciones colaboradoras" data-delay="50" href="../views/complaint.php" id="collaborations"><i class="fas fa-hands-helping tiny"></i> DENUNCIAS</a>
                         </li>
                         <li><a class="dropdown-button li-login" href="#!" data-activates="signIn"><i
                                     class="fas fa-user-lock"></i><i class="left fas fa-caret-down"></i></a></li>

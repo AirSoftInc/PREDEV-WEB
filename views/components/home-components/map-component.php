@@ -966,7 +966,7 @@
             </div>
 
             <div class="align-container"
-                style="position: absolute !important; margin-left: 600px !important; margin-top: -587px !important;">
+                style="position: absolute !important; margin-left: 430px !important; margin-top: -587px !important;">
                 <div id="container" class="pie-chart-position"></div>
             </div>
 

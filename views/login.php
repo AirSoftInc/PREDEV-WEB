@@ -22,7 +22,6 @@
         <div class="oval-half-red">
           <a href="index.php">
             <img class="logo_login img-login" src="../source/img/PREDEV.png">
-            <h6>>Plataforma para la Prevencion y Monitorizacion de casos de discriminación en Veracruz</h6>
           </a>
           <h2 class="title_login">Bienvenido</h2>
           <h1 class="subtitle_login" >Iniciar Sesion</h1>

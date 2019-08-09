@@ -115,3 +115,43 @@
     opacity: .9;
      
   }
+
+  #contentMessage > div {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    max-width: max-content;
+    -webkit-box-shadow: 0px 11px 49px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 11px 49px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 11px 49px 0px rgba(0,0,0,0.75);
+    box-shadow: beige;
+}
+
+textarea.materialize-textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #091426;
+  border-radius: 0;
+  outline: none;
+  height: 3rem;
+  width: 100%;
+  font-size: 1rem;
+  margin: 0 0 20px 0;
+  padding: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.input-field.col label {
+  left: .75rem;
+  color: #091426;
+  font-size: 18px;
+}
