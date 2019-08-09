@@ -1,5 +1,7 @@
 <head>
     <link rel="stylesheet" href="../source/css/home-css/register-modal.css">
+    <link rel="stylesheet" href="../source/css/alertify.core.css">
+    <link rel="stylesheet" href="../source/css/alertify.default.css">
 </head>
 
 <div id="register-modal" class="modal">
@@ -8,7 +10,7 @@
         <div class="divider divider-register" id=""></div>
         <br>
 
-        <form class="col s12">
+        <form class="col s12" id="user-form">
             <div class="row">
                 <div class="row">
                     <div class="input-field col s5 m-17">
@@ -51,7 +53,7 @@
 
                     <div class="input-field col s4">
                         <i class="fas fa-envelope prefix position-icon"></i>
-                        <input id="zipcode" type="text">
+                        <input id="zipCode" type="text">
                         <label for="icon_prefix">Código Postal</label>
                     </div>
                 </div>
@@ -62,18 +64,20 @@
             </div>
 
             <div class="row">
-                
+                <div>
+                    <button type="submit" class="waves-effect waves-light btn right border-radius color-green-button">Registrar</button>
+                </div>
+                <div class="right space-in-buttons">E</div>
+                <div>
+                    <button class="waves-effect waves-light btn right red border-radius">Cancelar</button>
+                </div>
             </div>
-
         </form>
     </div>
-
-    <!-- <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cancelar</a>
-        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Registrarse</a>
-    </div> -->
 </div>
 
 <script src="../source/js/jquery-3.4.1.min.js"></script>
 <script src="../source/js/home-js/register-modal.js"></script>
+<script src="../source/js/alertify.min.js"></script>
+<script src="../source/helper/crud-function-service.js"></script>
 <script src="../source/helper/register-modal-inputs.js"></script>

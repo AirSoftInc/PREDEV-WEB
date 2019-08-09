@@ -60,3 +60,20 @@ textarea.materialize-textarea:focus:not([readonly]) + label{
 .mt-40{
     margin-top: -40px;
 }
+
+.border-radius{
+    border-radius: 25px;
+}
+
+.space-in-buttons{
+    color: transparent;
+    background-color: transparent;
+}
+
+.color-green-button{
+    background-color: #155FF0 !important;
+}
+
+.color-green-button:hover{
+    background-color: #64e500 !important;
+}

@@ -20,7 +20,7 @@ function getEmailAndRfc() {
 
         <div class="input-field col s6">
             <i class="fas fa-key prefix position-icon"></i>
-            <input id="surname" type="text">
+            <input id="rfc" type="text">
             <label for="icon_prefix">RFC</label>
         </div>
     `;
@@ -71,7 +71,7 @@ function aditionalInfo() {
 
             <div class="input-field col s6">
                 <i class="fas fa-globe prefix position-icon"></i>
-                <input id="webpage" type="text">
+                <input id="webPage" type="text">
                 <label for="icon_prefix">Página Web</label>
             </div>
         </div>

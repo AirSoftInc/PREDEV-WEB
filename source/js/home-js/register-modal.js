@@ -32,7 +32,35 @@ $(document).ready(function() {
   }
 
   $('#user-form').submit(function (e){
-    const userType = $('#userType').val();  
+    const userType = $('#userType').val();
+      if (!!userType) {
+        const userInstitutionForm = {
+          name: !!$('#name').val() ? $("#name").val(): "",
+          lastName: !!$('#lastName').val() ? $("#lastName").val(): "",
+          surname: !!$('#surname').val() ? $("#surname").val(): "",
+          email: !!$('#email').val() ? $("#email").val(): "",
+          userType: !!$('#userType').val() ? $("#userType").val(): "",
+          description: !!$('#description').val() ? $("#description").val(): "",
+          rfc: !!$('#rfc').val() ? $("#rfc").val(): "",
+          telephone: !!$('#telephone').val() ? $("#telephone").val(): "",
+          address: !!$('#address').val() ? $("#address").val(): "",
+          city: !!$('#city').val() ? $("#city").val(): "",
+          zipCode: !!$('#zipCode').val() ? $("#zipCode").val(): "",
+          municipality: $('#municipality').val() ? $("#municipality").val(): "",
+          webPage: !!$('#webPage').val() ? $('#webPage').val() : "",
+          facebook: !!$('#facebook').val() ? $('#facebook').val() : "",
+          twitter: !!$('#twitter').val() ? $('#twitter').val() : "",
+          operation: "register-user"
+      } 
+    
+      postFormWithResponse("../service/user-service/user-controller.php", userInstitutionForm, function (respose) {
+        console.log(respose);
+      }); 
+
+    } else {
+      alertify.log('Selecciona un tipo de usuario');
+    }
+    e.preventDefault();
   });
 
 });
