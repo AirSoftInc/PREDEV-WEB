@@ -19,3 +19,91 @@
 	font-weight: bold;
 }
 
+.ml-15{
+	margin-left: 15px;
+}
+
+.color-red{
+	color: red;
+}
+
+.pl-10 {
+    padding-left: 10px !important;
+}
+
+.position-icon {
+    font-size: 22px !important;
+    padding-top: 24px;
+    padding-left: 15px;
+}
+
+.input-field .prefix.active{
+    color: #091426 !important;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]){
+    border-bottom: 1px solid #091426;
+    box-shadow: 0 1px 0 0 #091426;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) + label{
+    color: #091426;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+    font-size: 16px;
+    color: #091426;
+    display: block;
+    line-height: 22px;
+    padding: 14px 16px;
+}
+
+textarea.materialize-textarea:focus:not([readonly]){
+    border-bottom: 1px solid #091426;
+    -webkit-box-shadown: 0 1px 0 0 #091426;
+    box-shadow: 0 1px 0 0 #091426;
+}
+
+textarea.materialize-textarea:focus:not([readonly]) + label{
+    color: #091426;
+}
+
+.divider-bold{
+    color: #024A58;
+    font-weight: bold;
+}
+
+.divider-register{
+    background-color: #2999A5;
+    height: 3px;
+}
+
+.input-field .prefix {
+    color: grey;
+}
+
+.m-17{
+    margin-left: 17px !important;
+}
+
+.mt-40{
+    margin-top: -40px;
+}
+
+.border-radius{
+    border-radius: 25px;
+}
+
+.space-in-buttons{
+    color: transparent;
+    background-color: transparent;
+}
+
+.color-green-button{
+    background-color: #155FF0 !important;
+}
+
+.color-green-button:hover{
+    background-color: #64e500 !important;
+}
+

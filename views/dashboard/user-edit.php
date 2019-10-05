@@ -25,52 +25,55 @@
             <div>
                 <p class="edittext" >Edita tu perfil</p><p class="edittext1" >Datos</p>
                 <img src="../../source/img/user.png" style="width: 170px; margin-left: 20px;">
-                <ul class="listadatos">
-                    <li>Nombre:</li>
-                    <li>Correo:</li>
-                    <li>Telefono:</li>
-                    <li>RFC:</li>
-                    
-
-                </ul>
+                <ul class="listadatos ml-15" id="list"></ul>
             </div>
 
         <div class="row">
-    <form class="col s12">
-      <div class="row">
-        <div class="input-field col s6">
-          <input  id="first_name" type="text" class="validate">
-          <label for="first_name">Nombre</label>
-        </div>
-        <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name">Correo</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input  id="disabled" type="text" class="validate">
-          <label for="disabled">Telefono</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="password" type="password" class="validate">
-          <label for="password">RFC</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="email" type="email" class="validate">
-          <label for="email">Contraseña</label>
-        </div>
-      </div>
-    </form>
-  </div>
+          <form class="col s12" id="userEditForm">
             <div class="row">
-              <a id="init" class="btn waves-effect waves-light border-radius" style="border-radius: 20px;" type="submit" name="action" href="">Cancelar</a>
-              <a id="init" class="btn waves-effect waves-light border-radius" style="border-radius: 20px;" type="submit" name="action" href="">Editar</a>
+              <div class="input-field col s6">
+                <input  id="name" type="text" class="validate">
+                <label for="first_name">Nombre</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="email" type="email" class="validate">
+                <label for="last_name">Correo</label>
+              </div>
             </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input  id="telephone" type="text" class="validate">
+                <label for="disabled">Telefono</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="rfc" type="text" class="validate">
+                <label for="password">RFC</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="password" type="text" class="validate">
+                <label for="email">Contraseña</label>
+              </div>
+            </div>
+
+            <div class="row">
+                <div>
+                    <button type="submit" id="btnSave" class="waves-effect waves-light btn right border-radius color-green-button">Editar</button>
+                </div>
+                <div class="right space-in-buttons">E</div>
+                <div>
+                    <a id="cancelForm" class="waves-effect waves-light btn right red border-radius" href="index.php">Cancelar</a>
+                </div>
+            </div>
+          </form>
+        </div>
+            <!-- <div class="row">
+              <a id="init" class="btn waves-effect waves-light border-radius" style="border-radius: 20px;" type="submit" name="action" href="index.php">Cancelar</a>
+              <a id="init" class="btn waves-effect waves-light border-radius" style="border-radius: 20px;" type="submit" name="action" href="">Editar</a>
+            </div> -->
         </div>
         </div>
     </main>
@@ -85,5 +88,7 @@
 
     <script src="../../source/js/jquery-3.4.1.min.js"></script>
     <script src="../../source/js/materialize.min.js"></script>
+    <script src="../../source/js/dashboard-js/user-edit.js"></script>
     <script src="../../source/js/dashboard-js/institutions.js"></script>
+    <script src="../../source/helper/crud-function-service.js"></script>
 </body>

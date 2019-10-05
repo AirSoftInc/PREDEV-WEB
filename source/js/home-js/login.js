@@ -8,12 +8,11 @@ $(document).ready(function () {
                 email: email,
                 password : password
             }   
-            console.log(users);
-            
             retriveWithParams('../service/login-service/login-controller.php', users, function(response){
-                console.log(response);
-                if (response === 'SUCCESS') {
+                const user =  JSON.parse(response)[0];
+                if (!!user && user.statusRequest === 'SUCCESS') {
                     location.href="dashboard/index.php";
+                    localStorage.setItem("user", JSON.stringify(user))
                 }else{
                     $('#email').val("");
                     $('#password').val("");
