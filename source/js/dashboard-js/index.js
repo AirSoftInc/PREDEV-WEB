@@ -1,14 +1,18 @@
 let statisticsZone = [];
 $(document).ready(function () {
 
-    const pageTitle = "PANEL ADMINISTRADOR"
-    
     onInit();
 
     function onInit(){
+      const user = JSON.parse(localStorage.getItem('user'))
+      if (!!user) {
+        const pageTitle = user.user_type != "I" ? "PANEL ADMINISTRADOR" : "PANEL DE INSTITUCIONES"
         document.getElementById("pageTitle").innerHTML = pageTitle;
         $("#home").addClass("active-green");
-        getValues();
+        getValues(); 
+      } else {
+        location.href="../login.php";
+      }
     }
 
     function getValues(){

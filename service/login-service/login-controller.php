@@ -5,7 +5,7 @@
     $password = $_POST['password'];
 
     $sql =  "SELECT u.id, u.name, u.last_name, u.surname, u.email, u.password, u.user_type, u.status, ai.rfc, ai.telephone, ai.address, ai.zip_code, ai.municipality,
-    ai.web_page FROM users u, user_aditional_info ai WHERE u.id = ai.user_id && user_type = 'I' && STATUS = 1 && u.email = '$email' && u.password = '$password';";
+    ai.web_page FROM users u, user_aditional_info ai WHERE u.id = ai.user_id && STATUS = 1 && u.email = '$email' && u.password = '$password';";
 
     $countResult = mysqli_query($connection, $sql);
     $results = mysqli_num_rows($countResult);
@@ -35,6 +35,5 @@
         echo $jsonString;
     }else{
         echo('ERROR 404');
-    }
-    
+    } 
 ?>

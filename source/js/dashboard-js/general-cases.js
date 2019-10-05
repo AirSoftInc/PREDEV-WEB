@@ -1,13 +1,19 @@
 $(document).ready(function () {
 
+    let user = "";
     const pageTitle = "CASOS GENERALES"
 
     onInit();
     
     function onInit() {
-        document.getElementById("pageTitle").innerHTML = pageTitle;
-        $("#cases").addClass("active-green");
-        getAllCases();
+        user = JSON.parse(localStorage.getItem('user'))
+        if (!!user) {
+            document.getElementById("pageTitle").innerHTML = pageTitle;
+            $("#cases").addClass("active-green");
+            getAllCases();
+        } else {
+            location.href="../login.php";
+        }
     }
 
     function getAllCases(){
@@ -17,12 +23,17 @@ $(document).ready(function () {
             let template = '';
             cases.forEach(caseSelected => {
                 const assignedClass = caseSelected.isAssigned === "Sin asignar" ? "color: #e40059 !important;" : "assigned";
-                template += `
-                <tr>
-                    <td>${caseSelected.title}</td>
-                    <td>${caseSelected.date}</td>
-                    <td><strong class="caseSelected">${caseSelected.status}</strong></td>
-                    <td><strong id="caseSelected">${caseSelected.isAssigned}</strong></td>
+                const buttons = user.user_type === "I" 
+                ? `
+                    <td>
+                        <a class="btn-floating blue round-button tooltipped" href="${caseSelected.link}" id="btnInfo" target= blank
+                        data-placement="top" data-tooltip="Más información"><i class="fas fa-info action-button"></i></a>
+                        
+                        <a class="btn-floating green round-button tooltipped" href="#" id="btnUserChange" target= blank
+                        data-placement="top" data-tooltip="Reasignar caso" caseID="${caseSelected.id}"><i class="fas fa-users action-button"></i></a>
+                    </td>                
+                ` 
+                : `
                     <td>
                         <a class="btn-floating blue round-button tooltipped" href="${caseSelected.link}" id="btnInfo" target= blank
                         data-placement="top" data-tooltip="Más información"><i class="fas fa-info action-button"></i></a>
@@ -36,6 +47,14 @@ $(document).ready(function () {
                         <a class="btn-floating green round-button tooltipped" href="#" id="btnUserChange" target= blank
                         data-placement="top" data-tooltip="Reasignar caso" caseID="${caseSelected.id}"><i class="fas fa-users action-button"></i></a>
                     </td>
+                `;
+                template += `
+                <tr>
+                    <td>${caseSelected.title}</td>
+                    <td>${caseSelected.date}</td>
+                    <td><strong class="caseSelected">${caseSelected.status}</strong></td>
+                    <td><strong id="caseSelected">${caseSelected.isAssigned}</strong></td>
+                    ${buttons}
                 </tr>
                 `;
             });

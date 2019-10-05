@@ -5,9 +5,14 @@ $(document).ready(function () {
     onInit();
     
     function onInit() {
-        document.getElementById("pageTitle").innerHTML = pageTitle;
-        $("#institutions").addClass("active-green");
-        getAllInstitutions();
+        const user = JSON.parse(localStorage.getItem('user'))
+        if (!!user) {
+            document.getElementById("pageTitle").innerHTML = pageTitle;
+            $("#institutions").addClass("active-green");
+            getAllInstitutions(); 
+        } else {
+            location.href="../login.php";
+        }
     }
 
     function getAllInstitutions(){

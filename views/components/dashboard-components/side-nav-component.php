@@ -22,14 +22,17 @@
                         <div class="collapsible-body blue-grey darken-2" style="display: block;">
                             <ul>
                                 <li><a href="../dashboard/general-cases.php" class="cb-a waves-effect waves-send white-text">Generales</a></li>
-                                <li><a href="#" class="cb-a waves-effect waves-send white-text">Asignaciones</a></li>
+                                <li id="asigned"><a href="#" class="cb-a waves-effect waves-send white-text">Asignaciones</a></li>
                                 <li><a href="#" class="cb-a waves-effect waves-send white-text">Mis casos</a></li>
                             </ul>
                         </div>
                     </li>
                 </ul>
             </li>
-            <li class="side-nav-item"><a href="#" class="a-nav white-text waves-effect"><i class="white-text fas fa-comments"></i>Chat</a></li>
+            <li class="side-nav-item" id="chat"><a href="#" class="a-nav white-text waves-effect"><i class="white-text fas fa-comments"></i>Chat</a></li>
         </ul>
     </div>
 </div>
+
+<script src="../../source/js/jquery-3.4.1.min.js"></script>
+<script src="../../source/js/dashboard-js/side-nav.js"></script>
