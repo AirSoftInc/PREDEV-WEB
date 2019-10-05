@@ -30,6 +30,14 @@
 
             getAllUsers($type, $filter, $connection);
         break;
+        case $operation == 'edit-profile-user':
+            $id = $_POST['id'];
+            $email= $_POST['email'];
+            $telephone = $_POST['telephone'];
+            $password = $_POST['password'];
+
+            editProfile($id, $email, $telephone, $password, $connection);
+        break;
         default:
             echo "ERROR 404";
         break;
@@ -109,5 +117,58 @@
             $jsonString = json_encode($json);
             echo $jsonString;
         }
+    }
+
+    function editProfile($id, $email, $telephone, $password, $connection){
+        if (isset($id)) {
+            $query = "UPDATE users SET email = '$email',  password= '$password' WHERE id= $id AND status = 1" ;
+            $result = mysqli_query($connection, $query);
+
+            if (!$result) {
+                die('Query failed'. mysqli_error($connection));
+            }
+
+            $query_aditional= "UPDATE user_aditional_info SET telephone = $telephone WHERE user_id = $id ";
+            $result_aditional = mysqli_query($connection, $query_aditional);
+
+            if (!$result_aditional) {
+                die('Query user_aditional_info failed'. mysqli_error($connection));
+            }
+
+            // echo 'SUCCES UPDATE';
+
+            $sql =  "SELECT u.id, u.name, u.last_name, u.surname, u.email, u.password, u.user_type, u.status, ai.rfc, ai.telephone, ai.address, ai.zip_code, ai.municipality,
+            ai.web_page FROM users u, user_aditional_info ai WHERE u.id = ai.user_id && user_type = 'I' && STATUS = 1 && u.id = $id;";
+
+            $countResult = mysqli_query($connection, $sql);
+            $results = mysqli_num_rows($countResult);
+
+            if ($results == 1) {
+                $json = array();        
+                while($row = mysqli_fetch_array($countResult)){
+                    $json[] = array(
+                        'id' => $row['id'],
+                        'name' => $row['name'],
+                        'email' => $row['email'],
+                        'user_type' => $row['user_type'],
+                        'status' => $row['status'],
+                        'lasName' => $row['last_name'],
+                        'surname' => $row['surname'],
+                        'telephone' => $row['telephone'],
+                        'address' => $row['address'],
+                        'municipality' => $row['municipality'],
+                        'webPage' => $row['web_page'],
+                        'rfc' => $row['rfc'],
+                        'password' => $row['password'],
+                        'statusRequest' => 'SUCCESS'
+                    );
+                };
+
+                $jsonString = json_encode($json);
+                echo $jsonString;
+            }
+            
+        }
+        
     }
 ?>

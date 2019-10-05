@@ -9,8 +9,8 @@ $(document).ready(function () {
                 password : password
             }   
             retriveWithParams('../service/login-service/login-controller.php', users, function(response){
-                const user =  JSON.parse(response)[0];
-                if (!!user && user.statusRequest === 'SUCCESS') {
+                if (response != "ERROR 404") {
+                    const user = JSON.parse(response)[0];
                     location.href="dashboard/index.php";
                     localStorage.setItem("user", JSON.stringify(user))
                 }else{

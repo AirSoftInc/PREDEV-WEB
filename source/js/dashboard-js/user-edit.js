@@ -2,10 +2,14 @@ $(document).ready(function () {
     let user;
     onInit();
 
-    function onInit() {
-         user = JSON.parse(localStorage.getItem('user'));
-        setUserData(user);
-        setUserDataLabels(user);
+    function onInit() {        
+        user = JSON.parse(localStorage.getItem('user'));
+        if (!!user) {
+            setUserData(user);
+            setUserDataLabels(user); 
+        } else {
+            location.href="../login.php";
+        }
     }
 
     function setUserData(user) {
@@ -13,6 +17,13 @@ $(document).ready(function () {
         $('#email').val(user.email);
         $('#telephone').val(user.telephone);
         $('#rfc').val(user.rfc);
+    }
+
+    function clearData() {
+        $('#name').val("");
+        $('#email').val("");
+        $('#telephone').val("");
+        $('#rfc').val("");
     }
 
     function setUserDataLabels(user) {
@@ -26,16 +37,49 @@ $(document).ready(function () {
 
 
     $('#userEditForm').submit(function (e) {
-        const userInstitutionForm = {
-            name: !!$('#name').val() ? $("#name").val(): "",
-            email: !!$('#email').val() ? $("#email").val(): "",
-            rfc: !!$('#rfc').val() ? $("#rfc").val(): "",
-            telephone: !!$('#telephone').val() ? $("#telephone").val(): "",
-            password: !!$('#password').val() ? $('#password').val() : user.password
-        }
-        
-        console.log(userInstitutionForm);
+        Swal.fire({
+            title: '¿Desea continuar con los cambios?',
+            text: "cambios de mi perfil",
+            type: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Continuar',
+            cancelButtonText: "Cancelar"
+          }).then((result) => {
+            if (result.value) {
+                const userInstitutionForm = {
+                    id: user.id,
+                    name: !!$('#name').val() ? $("#name").val(): "",
+                    email: !!$('#email').val() ? $("#email").val(): "",
+                    rfc: !!$('#rfc').val() ? $("#rfc").val(): "",
+                    telephone: !!$('#telephone').val() ? $("#telephone").val(): "",
+                    password: !!$('#password').val() ? $('#password').val() : user.password, 
+                    operation: 'edit-profile-user'
+                }
+
+                postFormWithResponse("../../service/user-service/user-controller.php", userInstitutionForm, function (response) {
+                    const user = JSON.parse(response)[0];
+                    console.log(JSON.parse(response)[0]);
+                    clearData();
+                    localStorage.clear();
+                    localStorage.setItem('user', JSON.stringify(user));
+                    setUserData(user);
+                    setUserDataLabels(user);
+                    Swal.fire({
+                        title: 'Se actualizo correctamente tu información.',
+                        animation: false,
+                        customClass: {
+                          popup: 'animated zoomInDown'
+                        }
+                      })
+                });
+            }else{
+                setUserData(user);
+                setUserDataLabels(user);
+            }
+        })
         
         e.preventDefault();
-    });
+    }); 
 });
