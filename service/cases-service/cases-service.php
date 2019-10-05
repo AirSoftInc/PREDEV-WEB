@@ -20,7 +20,7 @@
     }
 
     function getAllCases($connection){
-        $query = "SELECT * FROM case_data WHERE isCase = TRUE AND isDeleted = FALSE";
+        $query = "SELECT * FROM case_data WHERE isCase = TRUE AND isDeleted = FALSE GROUP BY title";
         $result = mysqli_query($connection, $query);
     
         if (!$result) {
