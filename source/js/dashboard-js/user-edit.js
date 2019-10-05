@@ -24,6 +24,7 @@ $(document).ready(function () {
         $('#email').val("");
         $('#telephone').val("");
         $('#rfc').val("");
+        $('#password').val("");
     }
 
     function setUserDataLabels(user) {

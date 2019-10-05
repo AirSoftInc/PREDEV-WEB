@@ -5,7 +5,7 @@
             <div class="profile-buttom">
                 <div class="fixed-action-btn horizontal click-to-toggle" style="position: absolute; right: 24px;">
                     <a class="btn-floating btn-large red profile-buttom-size">
-                        <img src="../../source/img/profile.jpg" class="profile-img-size">
+                        <div id="avatar"></div>
                     </a>
                     <ul>
                         <li><a class="btn-floating blue color-icon"><i class="fas fa-globe-americas icon-web"></i></a></li>

@@ -92,4 +92,5 @@
     <script src="../../source/js/dashboard-js/institutions.js"></script>
     <script src="../../source/helper/crud-function-service.js"></script>
     <script src="../../source/js/sweetalert2.js"></script>
+    
 </body>
