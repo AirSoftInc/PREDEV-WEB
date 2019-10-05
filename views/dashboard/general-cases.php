@@ -51,6 +51,9 @@
     <script src="../../source/js/jquery-3.4.1.min.js"></script>
     <script src="../../source/js/materialize.min.js"></script>
     <script src="../../source/helper/crud-function-service.js"></script>
+    <script src="../../source/helper/municipality-helper.js"></script>
+    <script src="../../source/helper/lodash.js"></script>
+    <script src="../../source/helper/scraping-helper.js"></script>
     <script src="../../source/js/dashboard-js/general-cases.js"></script>
     <script src="../../source/js/sweetalert2.js"></script>
 </body>

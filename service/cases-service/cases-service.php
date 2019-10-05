@@ -36,7 +36,8 @@
                 'link' => $row['link'],
                 'status' => $row['status'],
                 'date' => $row['date'],
-                'isAssigned' => $row['isAssigned']
+                'isAssigned' => $row['isAssigned'],
+                'zoneID' => $row['zone_id']
             );
         }
     

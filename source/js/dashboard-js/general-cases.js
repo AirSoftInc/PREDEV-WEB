@@ -1,13 +1,20 @@
 $(document).ready(function () {
 
     let user = "";
+    let zoneID = 0;
     const pageTitle = "CASOS GENERALES"
 
     onInit();
     
     function onInit() {
-        user = JSON.parse(localStorage.getItem('user'))
+        user = JSON.parse(localStorage.getItem('user'));
         if (!!user) {
+            dataZone.forEach(zone =>{
+                const identifiedAreas = arraysIntersection(user.municipality.toUpperCase(), zone.municipalities);
+                if (identifiedAreas.length > 0) {
+                    zoneID = zone.zoneId;
+                }
+            });            
             document.getElementById("pageTitle").innerHTML = pageTitle;
             $("#cases").addClass("active-green");
             getAllCases();
@@ -19,7 +26,16 @@ $(document).ready(function () {
     function getAllCases(){
         const form = {operation: "getAllCases"}
         postFormWithResponse("../../service/cases-service/cases-service.php", form ,function(response){
-            const cases = JSON.parse(response);
+            let cases = [];
+            if (user.user_type === "I") {
+                casesFilter = JSON.parse(response).forEach(caso =>{                
+                    if (caso.zoneID === zoneID.toString()) {
+                       cases.push(caso)
+                    }
+                });   
+            }else{
+               cases = JSON.parse(response); 
+            }
             let template = '';
             cases.forEach(caseSelected => {
                 const assignedClass = caseSelected.isAssigned === "Sin asignar" ? "color: #e40059 !important;" : "assigned";

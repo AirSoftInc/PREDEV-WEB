@@ -60,7 +60,7 @@ const olmecaZone = [
     "OTEAPAN"
 ];
 
-const dataZone = [{ zone: "HUASTECA ALTA", municipalities: huastecaAltaZone }, { zone: "HUASTECA BAJA", municipalities: huastecaBajaZone },
-{ zone: "TOTONACA", municipalities: totonacaZone }, { zone: "NAUTLA", municipalities: nautlaZone }, { zone: "CAPITAL", municipalities: capitalZone },
-{ zone: "LAS MONTANAS", municipalities: lasMontañasZone }, { zone: "SOTAVENTO", municipalities: sotaventoZone },
-{ zone: "PAPALOAPAN", municipalities: papaloapanZone }, { zone: "LOS TUXTLA", municipalities: losTuxtlaZone }, { zone: "OLMECA", municipalities: olmecaZone }];
+const dataZone = [{ zone: "HUASTECA ALTA", municipalities: huastecaAltaZone, zoneId: 1 }, { zone: "HUASTECA BAJA", municipalities: huastecaBajaZone, zoneId:2 },
+{ zone: "TOTONACA", municipalities: totonacaZone, zoneId: 3 }, { zone: "NAUTLA", municipalities: nautlaZone, zoneId: 4 }, { zone: "CAPITAL", municipalities: capitalZone, zoneId: 5 },
+{ zone: "LAS MONTANAS", municipalities: lasMontañasZone, zoneId: 6 }, { zone: "SOTAVENTO", municipalities: sotaventoZone, zoneId: 7 },
+{ zone: "PAPALOAPAN", municipalities: papaloapanZone, zoneId: 8 }, { zone: "LOS TUXTLA", municipalities: losTuxtlaZone, zoneId: 9 }, { zone: "OLMECA", municipalities: olmecaZone, zoneId: 10 }];
