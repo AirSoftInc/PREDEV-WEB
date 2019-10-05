@@ -28,7 +28,7 @@ $(document).ready(function () {
         postFormWithResponse("../../service/cases-service/cases-service.php", form ,function(response){
             let cases = [];
             if (user.user_type === "I") {
-                casesFilter = JSON.parse(response).forEach(caso =>{                
+                JSON.parse(response).forEach(caso =>{                                
                     if (caso.zoneID === zoneID.toString()) {
                        cases.push(caso)
                     }
